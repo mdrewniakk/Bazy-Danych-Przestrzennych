@@ -1,6 +1,8 @@
 --zad2
 --F:\PostgreSQL\14\bin\raster2pgsql.exe -s 27700 -N -32767 -t 4000x4000 -I -C -M -d F:\danexd\data\*.tif 
 --rasters.uk_250k | psql -d cw7 -h localhost -U postgres -p 5432
+--zad3
+SELECT ST_Union(rast) as rast INTO rasters.uk_250kunion FROM rasters.uk_250k
 --zad6
 CREATE TABLE uk_lake_district AS
 SELECT ST_Clip(a.rast, b.geom, true), b.gid
