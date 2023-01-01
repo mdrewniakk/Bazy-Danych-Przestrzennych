@@ -1,0 +1,550 @@
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|Current FME version: FME 2022.2.0.0 (20221103 - Build 22765 - WIN64)
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|FME Trial Edition (node locked-crc)
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|Serial Number: LVL8OJYHWXX6Y80BPCAH
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|Temporary License: 31 days left.
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|Machine host name is: LAPTOP-HLGFF2FQ
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|OS Locale Name     : pl_PL
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1250
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|FME API version: '4.0 20220615'
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\HP\Desktop\cw9/'
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'cw9.fmw'
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2022.2.0.0'
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 11 64-bit  (Build 22000)
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|FME Platform: WIN64
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|System Status: 132.83 GB of disk space available in the FME temporary folder (C:\Users\HP\AppData\Local\Temp\wbrun_1672598350569_28868\fmetmp_35)
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|System Status: 15.34 GB of physical memory available
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|System Status: 61.38 GB of virtual memory available
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|START - ProcessID: 11768, peak process memory usage: 73716 kB, current process memory usage: 73716 kB
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/Users/HP/Desktop/cw9\wb-xlate-1672609141101_28868' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `55569' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `63464'
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\HP\AppData\Roaming\Safe Software\FME\'
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|Using Python interpreter from `C:\Program Files\FME\fmepython310\python310.dll' with PYTHONHOME `C:\Program Files\FME\fmepython310'
+2023-01-01 22:39:04|   0.0|  0.0|INFORM|Python version 3.10 loaded successfully
+2023-01-01 22:39:04|   0.1|  0.1|INFORM|FME_BEGIN_PYTHON: evaluating python script from string...
+2023-01-01 22:39:04|   0.1|  0.0|WARN  |Drogi uzytkowniku drewniakmaciej55@gmail.com, o godzinie 2023-01-01 22:39:04.764871 rozpoczeto przetwarzanie danych dla powiatu dębickiego
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME_BEGIN_PYTHON: python script execution complete.
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\HP\Documents\FME\Formats
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Shared folders for transformers are : C:\Users\HP\AppData\Roaming\Safe Software\FME\Packages\22765-win64\transformers;C:\Program Files\FME\transformers;C:\Users\HP\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\HP\Documents\FME\CoordinateSystems
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\HP\Documents\FME\CoordinateSystemExceptions
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\HP\Documents\FME\CoordinateSystemGridOverrides
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\HP\Documents\FME\CsmapTransformationExceptions
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\HP\Documents\FME\TransformerCategories
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\HP\Desktop\cw9'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\HP\AppData\Local\Temp\wbrun_1672598350569_28868\fmetmp_35', set from environment variable `FME_TEMP'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\HP\AppData\Local\Temp'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 46.03 GB
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 34.52 GB
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Creating writer for format: 
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Creating reader for format: 
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Loaded module 'TextEncoderFactory' from file 'C:\Program Files\FME\plugins/TextEncoderFactory.dll'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\Program Files\FME\plugins/Geometry_func.dll'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Loaded module 'HTTPFactory' from file 'C:\Program Files\FME\plugins/HTTPFactory.dll'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME API version of module 'HTTPFactory' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Loaded module 'StringReplacerFactory' from file 'C:\Program Files\FME\plugins/StringReplacerFactory.dll'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME API version of module 'StringReplacerFactory' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Loaded module 'AttributeKeeperFactory' from file 'C:\Program Files\FME\plugins/AttributeKeeperFactory.dll'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME API version of module 'AttributeKeeperFactory' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Loaded module 'XFMapFactory' from file 'C:\Program Files\FME\plugins/XFMapFactory.dll'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME API version of module 'XFMapFactory' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Loaded module 'StatisticsCalculatorFactory' from file 'C:\Program Files\FME\plugins/StatisticsCalculatorFactory.dll'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME API version of module 'StatisticsCalculatorFactory' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|SentinelDownloader_StatisticsCalculator_2 (StatisticsCalculatorFactory): The following statistics will be calculated 'date{3}.max'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Loaded module 'JSONQueryFactory' from file 'C:\Program Files\FME\plugins/JSONQueryFactory.dll'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME API version of module 'JSONQueryFactory' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|Loaded module 'QueryFactory' from file 'C:\Program Files\FME\plugins/QueryFactory.dll'
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.1|  0.0|INFORM|SentinelDownloader_StatisticsCalculator (StatisticsCalculatorFactory): The following statistics will be calculated '_count'
+2023-01-01 22:39:04|   0.2|  0.1|INFORM|Loaded module 'RasterProperties_func' from file 'C:\Program Files\FME\plugins/RasterProperties_func.dll'
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|FME API version of module 'RasterProperties_func' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|Loaded module 'RasterNodata_func' from file 'C:\Program Files\FME\plugins/RasterNodata_func.dll'
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|FME API version of module 'RasterNodata_func' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|Loaded module 'RasterEvaluationFactory' from file 'C:\Program Files\FME\plugins/RasterEvaluationFactory.dll'
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|FME API version of module 'RasterEvaluationFactory' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|Loaded module 'RasterPaletteAttributes_func' from file 'C:\Program Files\FME\plugins/RasterPaletteAttributes_func.dll'
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|FME API version of module 'RasterPaletteAttributes_func' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|Loaded module 'ClipperFactory' from file 'C:\Program Files\FME\plugins/ClipperFactory.dll'
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|FME API version of module 'ClipperFactory' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|Loaded module 'PythonFactory' from file 'C:\Program Files\FME\plugins/PythonFactory.dll'
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|Loaded module 'RasterStatisticsFactory' from file 'C:\Program Files\FME\plugins/RasterStatisticsFactory.dll'
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|FME API version of module 'RasterStatisticsFactory' matches current internal version (4.0 20220615)
+2023-01-01 22:39:04|   0.2|  0.0|INFORM|Emptying factory pipeline
+2023-01-01 22:39:04|   0.2|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2023-01-01 22:39:04|   0.2|  0.0|STATS |Unwanted Router Input Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:39:04|   0.2|  0.0|STATS |powiaty_SHAPEFILE_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:39:05|   0.3|  0.1|STATS |Restoring 380 feature(s) from FME feature store file `C:\Users\HP\AppData\Local\Temp\wb-cache--nsIiyt\Main_powiaty -1 2 -1  0  bc3005d8fec28ef739ae26c093728c113e2d7345.ffs'
+2023-01-01 22:39:05|   0.3|  0.0|INFORM|CS-MAP Reprojector: Transformation will be automatically selected for '_ETRS89.PolandCS92_0' -> 'LL84', and is not guaranteed to remain the same in future releases of FME
+2023-01-01 22:39:05|   0.3|  0.0|INFORM|Reprojector: Using transformation `ETRS89/01_to_WGS84,Forward(Geocentric)' when reprojecting from _ETRS89.PolandCS92_0 to LL84
+2023-01-01 22:39:06|   1.9|  1.6|STATS |Reprojector (TeeFactory): Cloned 380 input feature(s) into 380 output feature(s)
+2023-01-01 22:39:06|   1.9|  0.0|STATS |Tester (TestFactory): Tested 380 input feature(s) -- 1 feature(s) passed and 379 feature(s) failed
+2023-01-01 22:39:06|   1.9|  0.0|STATS |Tester PASSED Splitter (TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader Initiator Input Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_Initiator1672609143 Input Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_GeometryFilter_InputPassThrough (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_GeometryFilter_RouterPrepper (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_GeometryFilter_Router (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_Reprojector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_TESTZDEFAULT (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_TESTMODE (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_LIST (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_SPECIFIC (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_SPECIFIC_2D_3D (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_SPECIFIC_2D (ExecuteFunctionFactory): Executed FME Functions on 0 input feature(s) -- 0 feature(s) completed and 0 feature(s) rejected
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_SPECIFIC_3D (ExecuteFunctionFactory): Executed FME Functions on 0 input feature(s) -- 0 feature(s) completed and 0 feature(s) rejected
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_BoundingBoxReplacer (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_TESTZDEFAULT (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_TESTMODE (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_LIST (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_SPECIFIC (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_SPECIFIC_2D_3D (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_SPECIFIC_2D (ExecuteFunctionFactory): Executed FME Functions on 0 input feature(s) -- 0 feature(s) completed and 0 feature(s) rejected
+2023-01-01 22:39:06|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_SPECIFIC_3D (ExecuteFunctionFactory): Executed FME Functions on 0 input feature(s) -- 0 feature(s) completed and 0 feature(s) rejected
+2023-01-01 22:39:06|   2.0|  0.1|INFORM|SentinelDownloader_HTTPCaller (HTTPFactory): [1]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-01 22:39:06|   2.0|  0.0|INFORM|SentinelDownloader_HTTPCaller (HTTPFactory): [1]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 3160 bytes, DNS lookup time: 47 ms, total transfer time: 464 ms
+2023-01-01 22:39:06|   2.0|  0.0|STATS |SentinelDownloader_TestFilter_INPUT (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:39:06|   2.0|  0.0|STATS |SentinelDownloader_TestFilter (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:06|   2.0|  0.0|STATS |SentinelDownloader_Junction_5 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:39:06|   2.0|  0.0|INFORM|SentinelDownloader_XMLFragmenter (XFMapFactory): Total Results: 4 Mapped Feature(s), 1 Input Feature(s), and 0 Invalid input Feature(s)
+2023-01-01 22:39:06|   2.0|  0.0|STATS |SentinelDownloader_Tester_2 (TestFactory): Tested 4 input feature(s) -- 4 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:06|   2.0|  0.0|INFORM|SentinelDownloader_Sorter (SortFactory): Starting sorting 4 feature(s)
+2023-01-01 22:39:06|   2.0|  0.0|INFORM|SentinelDownloader_Sorter (SortFactory): Done sorting 4 feature(s)
+2023-01-01 22:39:06|   2.1|  0.1|STATS |SentinelDownloader_Sorter (SortFactory): Finished sorting a total of 4 features.
+2023-01-01 22:39:06|   2.1|  0.0|STATS |SentinelDownloader_DateTimeConverter_1 (TeeFactory): Cloned 4 input feature(s) into 4 output feature(s)
+2023-01-01 22:39:06|   2.1|  0.0|STATS |SentinelDownloader_DateTimeConverter_Rejector (TestFactory): Tested 4 input feature(s) -- 0 feature(s) passed and 4 feature(s) failed
+2023-01-01 22:39:06|   2.2|  0.1|INFORM|SentinelDownloader_StatisticsCalculator_2 (StatisticsCalculatorFactory): Processing complete
+2023-01-01 22:39:06|   2.2|  0.0|STATS |SentinelDownloader_Tester_3 (TestFactory): Tested 4 input feature(s) -- 1 feature(s) passed and 3 feature(s) failed
+2023-01-01 22:39:06|   2.5|  0.3|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [2]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 4 bytes
+2023-01-01 22:39:06|   2.5|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [2]: HTTP Download: received 4 bytes
+2023-01-01 22:39:06|   2.5|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [2]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 4 bytes, DNS lookup time: 0 ms, total transfer time: 349 ms
+2023-01-01 22:39:07|   2.5|  0.0|WARN  |SentinelDownloader_Logger_5: Reqeusted data is ONLINE. Download will be triggered now.
+2023-01-01 22:39:07|   2.7|  0.2|STATS |SentinelDownloader_Tester_7 (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:39:07|   2.7|  0.0|STATS |SentinelDownloader_Logger_5_Logger (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:39:07|   2.7|  0.0|STATS |SentinelDownloader_Logger_5 LOGGED Splitter (TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2023-01-01 22:39:08|   4.3|  1.6|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [3]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-01 22:39:08|   4.3|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [3]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 395 bytes, DNS lookup time: 0 ms, total transfer time: 1629 ms
+2023-01-01 22:39:09|   5.5|  1.2|INFORM|SentinelDownloader_HTTPCaller_7 (HTTPFactory): [4]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-01 22:39:09|   5.5|  0.0|INFORM|SentinelDownloader_HTTPCaller_7 (HTTPFactory): [4]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 408 bytes, DNS lookup time: 0 ms, total transfer time: 1155 ms
+2023-01-01 22:39:09|   5.5|  0.0|STATS |SentinelDownloader_Junction_3 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:39:09|   5.5|  0.0|STATS |SentinelDownloader_AttributeExposer (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:39:11|   7.2|  1.7|INFORM|SentinelDownloader_HTTPCaller_9 (HTTPFactory): [5]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-01 22:39:11|   7.2|  0.0|INFORM|SentinelDownloader_HTTPCaller_9 (HTTPFactory): [5]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 514 bytes, DNS lookup time: 0 ms, total transfer time: 1736 ms
+2023-01-01 22:39:13|   9.3|  2.1|INFORM|SentinelDownloader_HTTPCaller_8 (HTTPFactory): [6]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-01 22:39:13|   9.3|  0.0|INFORM|SentinelDownloader_HTTPCaller_8 (HTTPFactory): [6]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 756 bytes, DNS lookup time: 0 ms, total transfer time: 1995 ms
+2023-01-01 22:39:14|  10.5|  1.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 117.47 MB
+2023-01-01 22:39:15|  10.6|  0.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 112.55 MB
+2023-01-01 22:39:16|  12.1|  1.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: HTTP Download: received 10.01 MB
+2023-01-01 22:39:18|  13.9|  1.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: HTTP Download: received 20.02 MB
+2023-01-01 22:39:20|  15.7|  1.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: HTTP Download: received 30.02 MB
+2023-01-01 22:39:21|  17.3|  1.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: HTTP Download: received 10.00 MB
+2023-01-01 22:39:21|  17.3|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: HTTP Download: received 40.03 MB
+2023-01-01 22:39:23|  19.1|  1.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: HTTP Download: received 50.04 MB
+2023-01-01 22:39:25|  21.0|  1.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: HTTP Download: received 60.05 MB
+2023-01-01 22:39:27|  22.8|  1.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: HTTP Download: received 20.01 MB
+2023-01-01 22:39:28|  23.3|  0.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: HTTP Download: received 70.05 MB
+2023-01-01 22:39:30|  25.2|  1.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: HTTP Download: received 80.06 MB
+2023-01-01 22:39:31|  27.0|  1.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: HTTP Download: received 90.07 MB
+2023-01-01 22:39:33|  28.5|  1.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: HTTP Download: received 30.02 MB
+2023-01-01 22:39:33|  28.8|  0.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: HTTP Download: received 100.08 MB
+2023-01-01 22:39:35|  30.5|  1.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: HTTP Download: received 110.08 MB
+2023-01-01 22:39:36|  31.9|  1.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: HTTP Download: received 117.47 MB
+2023-01-01 22:39:36|  31.9|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [8]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 123173078 bytes, DNS lookup time: 0 ms, total transfer time: 22888 ms
+2023-01-01 22:39:37|  32.7|  0.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: HTTP Download: received 40.03 MB
+2023-01-01 22:39:38|  34.1|  1.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: HTTP Download: received 50.03 MB
+2023-01-01 22:39:40|  35.4|  1.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: HTTP Download: received 60.04 MB
+2023-01-01 22:39:41|  36.8|  1.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: HTTP Download: received 70.05 MB
+2023-01-01 22:39:43|  38.0|  1.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: HTTP Download: received 80.06 MB
+2023-01-01 22:39:44|  39.5|  1.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: HTTP Download: received 90.06 MB
+2023-01-01 22:39:45|  40.8|  1.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: HTTP Download: received 100.07 MB
+2023-01-01 22:39:47|  42.2|  1.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: HTTP Download: received 110.08 MB
+2023-01-01 22:39:47|  42.5|  0.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: HTTP Download: received 112.55 MB
+2023-01-01 22:39:47|  42.5|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [7]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 118021457 bytes, DNS lookup time: 0 ms, total transfer time: 33715 ms
+2023-01-01 22:39:47|  42.6|  0.1|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-01 22:39:47|  42.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-01 22:39:47|  42.6|  0.0|INFORM|Loaded module 'JPEG2000' from file 'C:\Program Files\FME\plugins/gdal/GDAL.dll'
+2023-01-01 22:39:47|  42.6|  0.0|INFORM|FME API version of module 'gdal/GDAL' matches current internal version (4.0 20220615)
+2023-01-01 22:39:47|  42.6|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UEA_20221031T094039_B02_10m.jp2'
+2023-01-01 22:39:47|  42.6|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-01 22:39:47|  42.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-01 22:39:47|  42.6|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-01 22:39:47|  42.6|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-01 22:39:47|  42.6|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UEA_20221031T094039_B02_10m.jp2'
+2023-01-01 22:39:47|  42.7|  0.1|INFORM|The EPSG number of the FME coordinate system 'UTM84-34N' is '32634'
+2023-01-01 22:39:47|  42.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-01 22:39:47|  42.7|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-01 22:39:47|  42.7|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-01 22:39:47|  42.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-01 22:39:47|  42.7|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-01 22:39:47|  42.7|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-01 22:39:47|  42.7|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UEA_20221031T094039_B02_10m.jp2'
+2023-01-01 22:39:47|  42.7|  0.0|INFORM|Merged 1 schema features read from 1 datasets into 1 resulting feature types
+2023-01-01 22:39:50|  59.9| 17.2|INFORM|ResourceManager: Optimizing Memory Usage.  Please wait...
+2023-01-01 22:39:50|  59.9|  0.0|WARN  |Failed to free sufficient memory to reach the process usage limit. To improve stability and performance please increase the memory available to FME. Available memory can be increased by adding physical RAM, increasing swap space, or closing other applications
+2023-01-01 22:39:55|  69.3|  9.4|INFORM|FFS writer: Completed 37.72% of intermediate processing
+2023-01-01 22:40:00|  78.9|  9.6|INFORM|FFS writer: Completed 79.44% of intermediate processing
+2023-01-01 22:40:03|  84.1|  5.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:40:08|  93.5|  9.4|INFORM|FFS writer: Completed 40.85% of intermediate processing
+2023-01-01 22:40:13| 102.9|  9.4|INFORM|FFS writer: Completed 78.08% of intermediate processing
+2023-01-01 22:40:16| 108.1|  5.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:40:16| 108.2|  0.1|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-01 22:40:16| 108.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-01 22:40:16| 108.2|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UEA_20221031T094039_B03_10m.jp2'
+2023-01-01 22:40:16| 108.2|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-01 22:40:16| 108.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-01 22:40:16| 108.2|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-01 22:40:16| 108.2|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-01 22:40:16| 108.2|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UEA_20221031T094039_B03_10m.jp2'
+2023-01-01 22:40:16| 108.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_4[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-01 22:40:16| 108.2|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-01 22:40:23| 134.7| 26.5|INFORM|FFS writer: Completed 38.35% of intermediate processing
+2023-01-01 22:40:28| 144.3|  9.6|INFORM|FFS writer: Completed 81% of intermediate processing
+2023-01-01 22:40:31| 148.5|  4.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:40:36| 157.4|  8.9|INFORM|FFS writer: Completed 38.82% of intermediate processing
+2023-01-01 22:40:41| 166.4|  9.0|INFORM|FFS writer: Completed 80.71% of intermediate processing
+2023-01-01 22:40:43| 171.2|  4.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:40:44| 172.4|  1.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 119.18 MB
+2023-01-01 22:40:44| 172.4|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 129.00 MB
+2023-01-01 22:40:46| 174.0|  1.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: HTTP Download: received 10.01 MB
+2023-01-01 22:40:48| 175.7|  1.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: HTTP Download: received 20.02 MB
+2023-01-01 22:40:49| 177.4|  1.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: HTTP Download: received 30.03 MB
+2023-01-01 22:40:51| 179.1|  1.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: HTTP Download: received 40.03 MB
+2023-01-01 22:40:51| 179.2|  0.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP Download: received 10.01 MB
+2023-01-01 22:40:53| 181.0|  1.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: HTTP Download: received 50.04 MB
+2023-01-01 22:40:55| 183.0|  2.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: HTTP Download: received 60.05 MB
+2023-01-01 22:40:56| 184.0|  1.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP Download: received 20.02 MB
+2023-01-01 22:40:58| 185.6|  1.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: HTTP Download: received 70.06 MB
+2023-01-01 22:41:00| 187.4|  1.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP Download: received 30.03 MB
+2023-01-01 22:41:00| 187.8|  0.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: HTTP Download: received 80.06 MB
+2023-01-01 22:41:02| 189.9|  2.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: HTTP Download: received 90.07 MB
+2023-01-01 22:41:04| 191.5|  1.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP Download: received 40.03 MB
+2023-01-01 22:41:04| 192.0|  0.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: HTTP Download: received 100.08 MB
+2023-01-01 22:41:06| 194.1|  2.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: HTTP Download: received 110.09 MB
+2023-01-01 22:41:08| 195.6|  1.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP Download: received 50.04 MB
+2023-01-01 22:41:08| 196.0|  0.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: HTTP Download: received 119.18 MB
+2023-01-01 22:41:08| 196.0|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [9]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 124968018 bytes, DNS lookup time: 5 ms, total transfer time: 25081 ms
+2023-01-01 22:41:08| 196.2|  0.2|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-01 22:41:08| 196.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-01 22:41:08| 196.2|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UEA_20221031T094039_B04_10m.jp2'
+2023-01-01 22:41:08| 196.2|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-01 22:41:08| 196.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-01 22:41:08| 196.2|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-01 22:41:08| 196.2|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-01 22:41:08| 196.2|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UEA_20221031T094039_B04_10m.jp2'
+2023-01-01 22:41:08| 196.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_6[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-01 22:41:08| 196.2|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-01 22:41:10| 204.7|  8.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP Download: received 60.05 MB
+2023-01-01 22:41:11| 216.9| 12.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP Download: received 70.06 MB
+2023-01-01 22:41:13| 220.9|  4.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP Download: received 80.06 MB
+2023-01-01 22:41:14| 224.6|  3.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP Download: received 90.07 MB
+2023-01-01 22:41:15| 228.3|  3.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP Download: received 100.08 MB
+2023-01-01 22:41:16| 230.5|  2.2|INFORM|FFS writer: Completed 31.63% of intermediate processing
+2023-01-01 22:41:17| 232.1|  1.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP Download: received 110.09 MB
+2023-01-01 22:41:18| 235.8|  3.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP Download: received 120.09 MB
+2023-01-01 22:41:19| 239.2|  3.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP Download: received 129.00 MB
+2023-01-01 22:41:19| 239.2|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [10]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 135269042 bytes, DNS lookup time: 0 ms, total transfer time: 36222 ms
+2023-01-01 22:41:21| 242.5|  3.3|INFORM|FFS writer: Completed 68.11% of intermediate processing
+2023-01-01 22:41:25| 250.3|  7.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:41:30| 260.0|  9.7|INFORM|FFS writer: Completed 44.48% of intermediate processing
+2023-01-01 22:41:35| 269.2|  9.2|INFORM|FFS writer: Completed 82.02% of intermediate processing
+2023-01-01 22:41:37| 273.1|  3.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:41:42| 282.1|  9.0|INFORM|FFS writer: Completed 37.59% of intermediate processing
+2023-01-01 22:41:47| 291.3|  9.2|INFORM|FFS writer: Completed 73.8% of intermediate processing
+2023-01-01 22:41:50| 296.6|  5.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:41:50| 296.6|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-01 22:41:50| 296.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-01 22:41:50| 296.6|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UEA_20221031T094039_B08_10m.jp2'
+2023-01-01 22:41:50| 296.6|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-01 22:41:50| 296.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-01 22:41:50| 296.6|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-01 22:41:50| 296.6|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-01 22:41:50| 296.6|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UEA_20221031T094039_B08_10m.jp2'
+2023-01-01 22:41:50| 296.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_8[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-01 22:41:50| 296.6|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-01 22:41:59| 325.2| 28.6|INFORM|FFS writer: Completed 43.15% of intermediate processing
+2023-01-01 22:42:04| 334.6|  9.4|INFORM|FFS writer: Completed 81.67% of intermediate processing
+2023-01-01 22:42:06| 338.9|  4.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:42:11| 348.2|  9.3|INFORM|FFS writer: Completed 38.97% of intermediate processing
+2023-01-01 22:42:16| 357.6|  9.4|INFORM|FFS writer: Completed 75.66% of intermediate processing
+2023-01-01 22:42:19| 362.9|  5.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:42:24| 372.2|  9.3|INFORM|FFS writer: Completed 37.1% of intermediate processing
+2023-01-01 22:42:29| 380.9|  8.7|INFORM|FFS writer: Completed 76.18% of intermediate processing
+2023-01-01 22:42:32| 386.5|  5.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:42:37| 394.8|  8.3|INFORM|FFS writer: Completed 11.62% of intermediate processing
+2023-01-01 22:42:42| 403.3|  8.5|INFORM|FFS writer: Completed 25.08% of intermediate processing
+2023-01-01 22:42:47| 412.0|  8.7|INFORM|FFS writer: Completed 36.34% of intermediate processing
+2023-01-01 22:42:52| 420.9|  8.9|INFORM|FFS writer: Completed 50.79% of intermediate processing
+2023-01-01 22:42:57| 428.9|  8.0|INFORM|FFS writer: Completed 61.77% of intermediate processing
+2023-01-01 22:43:02| 437.8|  8.9|INFORM|FFS writer: Completed 75.79% of intermediate processing
+2023-01-01 22:43:07| 446.7|  8.9|INFORM|FFS writer: Completed 88.29% of intermediate processing
+2023-01-01 22:43:11| 453.6|  6.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:43:11| 453.6|  0.0|STATS |SentinelDownloader_Junction_4 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:43:11| 453.6|  0.0|STATS |SentinelDownloader_Junction_9 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:43:11| 453.6|  0.0|STATS |SentinelDownloader_Junction_10 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:43:11| 453.6|  0.0|STATS |SentinelDownloader_Tester_8 (TestFactory): Tested 3 input feature(s) -- 3 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:43:11| 453.6|  0.0|STATS |SentinelDownloader_TestFilter_2_INPUT (TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2023-01-01 22:43:11| 453.6|  0.0|STATS |SentinelDownloader_TestFilter_2 (TestFactory): Tested 3 input feature(s) -- 1 feature(s) passed and 2 feature(s) failed
+2023-01-01 22:43:11| 453.6|  0.0|STATS |SentinelDownloader_Tester_4 (TestFactory): Tested 7 input feature(s) -- 5 feature(s) passed and 2 feature(s) failed
+2023-01-01 22:43:11| 453.6|  0.0|STATS |SentinelDownloader_Junction_7 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:43:11| 453.6|  0.0|STATS |SentinelDownloader_Junction_8 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:43:11| 453.6|  0.0|STATS |SentinelDownloader_TestFilter_3_INPUT (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:43:11| 453.6|  0.0|STATS |SentinelDownloader_TestFilter_3 (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:43:12| 454.6|  1.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 128.74 MB
+2023-01-01 22:43:13| 456.3|  1.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 10.01 MB
+2023-01-01 22:43:15| 458.0|  1.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 20.02 MB
+2023-01-01 22:43:18| 460.4|  2.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 30.03 MB
+2023-01-01 22:43:19| 462.3|  1.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 40.04 MB
+2023-01-01 22:43:21| 463.9|  1.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 50.04 MB
+2023-01-01 22:43:23| 465.3|  1.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 60.05 MB
+2023-01-01 22:43:24| 466.6|  1.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 70.06 MB
+2023-01-01 22:43:25| 467.9|  1.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 80.07 MB
+2023-01-01 22:43:27| 469.4|  1.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 90.07 MB
+2023-01-01 22:43:28| 470.7|  1.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 100.08 MB
+2023-01-01 22:43:29| 472.1|  1.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 110.09 MB
+2023-01-01 22:43:31| 473.8|  1.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 120.10 MB
+2023-01-01 22:43:32| 475.0|  1.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 128.74 MB
+2023-01-01 22:43:32| 475.0|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 134996822 bytes, DNS lookup time: 2 ms, total transfer time: 21666 ms
+2023-01-01 22:43:32| 475.0|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-01 22:43:32| 475.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-01 22:43:32| 475.0|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UEA_20221031T094039_TCI_10m.jp2'
+2023-01-01 22:43:32| 475.0|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-01 22:43:32| 475.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-01 22:43:32| 475.0|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-01 22:43:32| 475.0|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-01 22:43:32| 475.0|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UEA_20221031T094039_TCI_10m.jp2'
+2023-01-01 22:43:32| 475.0|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_10[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-01 22:43:32| 475.0|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-01 22:43:34| 481.8|  6.8|INFORM|ResourceManager: Optimizing Memory Usage.  Please wait...
+2023-01-01 22:43:37| 500.6| 18.8|INFORM|FFS writer: Completed 93.26% of intermediate processing
+2023-01-01 22:43:37| 500.7|  0.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:43:42| 509.4|  8.7|INFORM|FFS writer: Completed 11.39% of intermediate processing
+2023-01-01 22:43:47| 517.6|  8.2|INFORM|FFS writer: Completed 20.02% of intermediate processing
+2023-01-01 22:43:52| 526.9|  9.3|INFORM|FFS writer: Completed 31.05% of intermediate processing
+2023-01-01 22:43:57| 535.5|  8.6|INFORM|FFS writer: Completed 39.65% of intermediate processing
+2023-01-01 22:44:02| 544.0|  8.5|INFORM|FFS writer: Completed 50.32% of intermediate processing
+2023-01-01 22:44:07| 552.3|  8.3|INFORM|FFS writer: Completed 58.32% of intermediate processing
+2023-01-01 22:44:12| 560.9|  8.6|INFORM|FFS writer: Completed 68% of intermediate processing
+2023-01-01 22:44:17| 569.2|  8.3|INFORM|FFS writer: Completed 75.88% of intermediate processing
+2023-01-01 22:44:22| 576.7|  7.5|INFORM|FFS writer: Completed 85.74% of intermediate processing
+2023-01-01 22:44:27| 585.2|  8.5|INFORM|FFS writer: Completed 94.62% of intermediate processing
+2023-01-01 22:44:29| 588.3|  3.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:44:34| 597.0|  8.7|INFORM|FFS writer: Completed 10.31% of intermediate processing
+2023-01-01 22:44:39| 606.4|  9.4|INFORM|FFS writer: Completed 20.8% of intermediate processing
+2023-01-01 22:44:44| 615.5|  9.1|INFORM|FFS writer: Completed 31.13% of intermediate processing
+2023-01-01 22:44:49| 623.8|  8.3|INFORM|FFS writer: Completed 41.04% of intermediate processing
+2023-01-01 22:44:54| 633.2|  9.4|INFORM|FFS writer: Completed 51.33% of intermediate processing
+2023-01-01 22:44:59| 642.0|  8.8|INFORM|FFS writer: Completed 61.36% of intermediate processing
+2023-01-01 22:45:04| 650.8|  8.8|INFORM|FFS writer: Completed 71.43% of intermediate processing
+2023-01-01 22:45:09| 659.2|  8.4|INFORM|FFS writer: Completed 81.27% of intermediate processing
+2023-01-01 22:45:14| 667.9|  8.7|INFORM|FFS writer: Completed 90.54% of intermediate processing
+2023-01-01 22:45:19| 676.1|  8.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:45:19| 676.1|  0.0|INFORM|SentinelDownloader_FeatureReader_2 (QueryFactory): 5 input initiators processed
+2023-01-01 22:45:19| 676.1|  0.0|STATS |SentinelDownloader_Junction_2 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.1|  0.0|STATS |SentinelDownloader_FeatureHolder (SortFactory): Output 0 feature(s) without doing any sorting
+2023-01-01 22:45:19| 676.1|  0.0|STATS |SentinelDownloader_Terminator_4 (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.3|  0.2|STATS |SentinelDownloader_TestFilter_4_INPUT (TeeFactory): Cloned 5 input feature(s) into 5 output feature(s)
+2023-01-01 22:45:19| 676.3|  0.0|STATS |SentinelDownloader_TestFilter_4 (TestFactory): Tested 5 input feature(s) -- 5 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.3|  0.0|STATS |SentinelDownloader_Junction_11 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.3|  0.0|STATS |SentinelDownloader_Junction_12 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.3|  0.0|STATS |SentinelDownloader_Junction_13 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.3|  0.0|STATS |SentinelDownloader_Junction_6 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.3|  0.0|STATS |SentinelDownloader_FeatureHolder_2 (SortFactory): Output 0 feature(s) without doing any sorting
+2023-01-01 22:45:19| 676.3|  0.0|STATS |SentinelDownloader_Terminator_5 (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.3|  0.0|STATS |SentinelDownloader_Logger_4_Logger (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.3|  0.0|STATS |SentinelDownloader_Logger_4 LOGGED Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.3|  0.0|STATS |SentinelDownloader_Junction (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.3|  0.0|INFORM|SentinelDownloader_XMLFragmenter_2 (XFMapFactory): Total Results: 1 Mapped Feature(s), 1 Input Feature(s), and 0 Invalid input Feature(s)
+2023-01-01 22:45:19| 676.3|  0.0|INFORM|SentinelDownloader_StatisticsCalculator (StatisticsCalculatorFactory): Processing complete
+2023-01-01 22:45:19| 676.3|  0.0|STATS |SentinelDownloader_ListBuilder_fme_type_remover (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.3|  0.0|STATS |SentinelDownloader_ListBuilder (ListFactory): Combined 1 input feature(s) into 1 output feature(s), including 0 singleton(s)
+2023-01-01 22:45:19| 676.3|  0.0|STATS |SentinelDownloader_ListConcatenator (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.3|  0.0|WARN  |SentinelDownloader_Logger: Your request delivers 1 result(s).
+The request delivers images at the following dates: 2022-10-31T16:12:32.552Z
+2023-01-01 22:45:19| 676.4|  0.1|STATS |SentinelDownloader_FeatureMerger (ReferenceFactory): Total Results: 1 Complete Feature(s), 0 Incomplete Feature(s), 1 Referenced Feature(s), 0 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_Logger_Logger (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_Tester (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_Logger_2_Logger (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_Logger_3_Logger (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_Terminator_3 (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_Terminator_2 (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_Terminator (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_B011672609143 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_B021672609143 Output Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_B031672609143 Output Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_B041672609143 Output Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_B051672609143 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_B061672609143 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_B071672609143 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_B081672609143 Output Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_B8A1672609143 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_B091672609143 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_B101672609143 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_B111672609143 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_B121672609143 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader_TCI1672609143 Output Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader B01 Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader B02 Output Renamer/Nuker (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader B03 Output Renamer/Nuker (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader B04 Output Renamer/Nuker (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader B05 Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader B06 Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader B07 Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader B08 Output Renamer/Nuker (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader B8A Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader B09 Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader B10 Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader B11 Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader B12 Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |SentinelDownloader TCI Output Renamer/Nuker (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |Sampler (SamplingFactory): Sampled 1 of 1 feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |Sampler_Sampled (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |Sampler_2 (SamplingFactory): Sampled 1 of 1 feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |Sampler_2_Sampled (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator Red Input Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator Infrared Input Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Red1572301170 Input Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Infrared1572301170 Input Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_GeometryFilter_InputPassThrough (TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_GeometryFilter_RouterPrepper (TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_GeometryFilter_Router (TestFactory): Tested 2 input feature(s) -- 2 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Junction_4 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Junction_5 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterPropertyExtractor (TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterPropertyExtractor_Rejector (TestFactory): Tested 2 input feature(s) -- 0 feature(s) passed and 2 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Junction (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Tester (TestFactory): Tested 2 input feature(s) -- 2 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Junction_6 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Junction_7 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterBandPropertyExtractor (TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterBandPropertyExtractor_Rejector (TestFactory): Tested 2 input feature(s) -- 0 feature(s) passed and 2 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Junction_3 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Tester_2 (TestFactory): Tested 2 input feature(s) -- 2 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Junction_8 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Junction_9 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterBandNodataRemover (TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterBandNodataRemover_Rejector (TestFactory): Tested 2 input feature(s) -- 0 feature(s) passed and 2 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_3 (TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_3_Condition_1 (TestFactory): Tested 2 input feature(s) -- 0 feature(s) passed and 2 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_3_SAVIadjustmentSet (TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_5 (TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_5_Condition_1 (TestFactory): Tested 2 input feature(s) -- 1 feature(s) passed and 1 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_5_infrared (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_2 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_2_Condition_1 (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_2_SAVI (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_Condition_1 (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_SAVI (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Junction_13 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_4 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_4_Condition_1 (TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_4_Condition_2 (TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_TestFilter_4_Do Not (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterBandNodataSetter_2_RasterBandNodataSetterInput (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterBandNodataSetter_2_RasterBandNodataSetter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterBandNodataSetter_2_Rejector (TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterPaletteAdder_2 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterPaletteAdder_2_Rejector (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Junction_10 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterPaletteAdder (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterPaletteAdder_Rejector (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Junction_11 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterBandNodataSetter_RasterBandNodataSetterInput (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterBandNodataSetter_RasterBandNodataSetter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_RasterBandNodataSetter_Rejector (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_AttributeRemover (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Junction_12 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Junction_2 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_Output1572301170 Output Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator_<Rejected>1572301170 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator Output Output Renamer/Nuker (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |NDVICalculator <Rejected> Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|STATS |Reprojector_2 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:45:19| 676.4|  0.0|INFORM|Clipper (ClipperFactory): Clipping.  Processed 1 candidates so far.
+2023-01-01 22:45:24| 685.3|  8.9|INFORM|FFS writer: Completed 45.97% of intermediate processing
+2023-01-01 22:45:29| 693.7|  8.4|INFORM|FFS writer: Completed 86.17% of intermediate processing
+2023-01-01 22:45:31| 696.5|  2.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:45:31| 696.5|  0.0|INFORM|Creating writer for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-01-01 22:45:31| 696.6|  0.1|INFORM|Trying to find a DYNAMIC plugin for writer named `GEOTIFF'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|Writer `GEOTIFF_1' of type `GEOTIFF' using group definition keyword `GEOTIFF_1_DEF'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting writer level option '_WRITE_OFFSETS_IN_CS_UNITS' to value 'Yes'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting writer level option '_WRITE_PROJECTED_COORDSYS_AS_EPSG_CODE' to value 'Yes'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting writer level option '_WRITE_GEOGRAPHIC_COORDSYS_AS_EPSG_CODE' to value 'Yes'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting writer level option '_WRITE_GEOGRAPHIC_KEYS_FOR_PROJECTED_COORDSYS' to value 'Yes'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting writer level option '_WRITE_ESRI_COMPATIBLE_COORDSYS' to value 'No'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_world_file_generation' to value 'no' for feature type 'Raster1'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_compression_method' to value 'none' for feature type 'Raster1'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_jpeg_compression_level' to value '25' for feature type 'Raster1'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_deflate_compression_level' to value '6' for feature type 'Raster1'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_zstd_compression_level' to value '9' for feature type 'Raster1'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_tab_file_generation' to value 'no' for feature type 'Raster1'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_interleaving_type' to value 'BSQ' for feature type 'Raster1'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_byte_order' to value 'machine' for feature type 'Raster1'
+2023-01-01 22:45:31| 696.6|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_calculate_minmax_tifftags' to value 'no' for feature type 'Raster1'
+2023-01-01 22:45:34| 699.4|  2.8|INFORM|Loaded module 'PointCloudEvaluationFactory' from file 'C:\Program Files\FME\plugins/PointCloudEvaluationFactory.dll'
+2023-01-01 22:45:34| 699.4|  0.0|INFORM|FME API version of module 'PointCloudEvaluationFactory' matches current internal version (4.0 20220615)
+2023-01-01 22:45:34| 699.8|  0.4|INFORM|Loaded module 'CalculatePointCloudStatistics_func' from file 'C:\Program Files\FME\plugins/CalculatePointCloudStatistics_func.dll'
+2023-01-01 22:45:34| 699.8|  0.0|INFORM|FME API version of module 'CalculatePointCloudStatistics_func' matches current internal version (4.0 20220615)
+2023-01-01 22:45:40| 709.2|  9.4|INFORM|FFS writer: Completed 13.35% of intermediate processing
+2023-01-01 22:45:45| 717.7|  8.5|INFORM|FFS writer: Completed 28.14% of intermediate processing
+2023-01-01 22:45:50| 726.1|  8.4|INFORM|FFS writer: Completed 44.77% of intermediate processing
+2023-01-01 22:45:55| 734.5|  8.4|INFORM|FFS writer: Completed 62.33% of intermediate processing
+2023-01-01 22:46:00| 743.6|  9.1|INFORM|FFS writer: Completed 79.22% of intermediate processing
+2023-01-01 22:46:05| 752.8|  9.2|INFORM|FFS writer: Completed 96.7% of intermediate processing
+2023-01-01 22:46:06| 754.2|  1.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-01 22:46:06| 754.5|  0.3|STATS |Clipper INSIDE Splitter (TeeFactory): Cloned 1 input feature(s) into 3 output feature(s)
+2023-01-01 22:46:06| 754.5|  0.0|STATS |Emailer_CATCHER (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-01 22:46:06| 754.5|  0.0|INFORM|Optional `process_group' method not present; not called
+2023-01-01 22:46:06| 754.5|  0.0|STATS |Emailer_ROUTER (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-01 22:46:06| 754.6|  0.1|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 1 input feature(s), wrote 1 output feature(s): 0 matched merge filters, 1 were routed to output, 0 could not be routed.
+2023-01-01 22:46:06| 754.6|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-01 22:46:06| 754.6|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-01 22:46:06| 754.6|  0.0|INFORM|Feature output statistics for `GEOTIFF' writer using keyword `GEOTIFF_1':
+2023-01-01 22:46:06| 754.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-01 22:46:06| 754.6|  0.0|STATS |                               Features Written
+2023-01-01 22:46:06| 754.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-01 22:46:06| 754.6|  0.0|STATS |NDVI                                                                         1
+2023-01-01 22:46:06| 754.6|  0.0|STATS |==============================================================================
+2023-01-01 22:46:06| 754.6|  0.0|STATS |Total Features Written                                                       1
+2023-01-01 22:46:06| 754.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-01 22:46:06| 754.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-01 22:46:06| 754.6|  0.0|STATS |                            Features Read Summary
+2023-01-01 22:46:06| 754.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-01 22:46:06| 754.6|  0.0|STATS |==============================================================================
+2023-01-01 22:46:06| 754.6|  0.0|STATS |Total Features Read                                                          0
+2023-01-01 22:46:06| 754.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-01 22:46:06| 754.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-01 22:46:06| 754.6|  0.0|STATS |                           Features Written Summary
+2023-01-01 22:46:06| 754.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-01 22:46:06| 754.6|  0.0|STATS |NDVI                                                                         1
+2023-01-01 22:46:06| 754.6|  0.0|STATS |==============================================================================
+2023-01-01 22:46:06| 754.6|  0.0|STATS |Total Features Written                                                       1
+2023-01-01 22:46:06| 754.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-01 22:46:06| 754.6|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-01-01 22:46:06| 754.6|  0.0|WARN  |-~                                                                             ~-
+2023-01-01 22:46:06| 754.6|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2023-01-01 22:46:06| 754.6|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2023-01-01 22:46:06| 754.6|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2023-01-01 22:46:06| 754.6|  0.0|WARN  |-~                                                                             ~-
+2023-01-01 22:46:06| 754.6|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-01-01 22:46:06| 754.6|  0.0|INFORM|Translation was SUCCESSFUL with 11 warning(s) (1 feature(s) output)
+2023-01-01 22:46:06| 754.6|  0.0|INFORM|FME Session Duration: 7 minutes 2.3 seconds. (CPU: 658.2s user, 96.4s system)
+2023-01-01 22:46:06| 754.6|  0.0|INFORM|END - ProcessID: 11768, peak process memory usage: 4080804 kB, current process memory usage: 2290376 kB
