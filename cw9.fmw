@@ -3,20 +3,20 @@
 #    Command line to run this workspace:
 #        "C:\Program Files\FME\fme.exe" C:\Users\HP\Desktop\cw9\cw9.fmw
 #          --SourceDataset_SHAPEFILE "$(FME_MF_DIR_USERTYPED)powiaty.shp"
-#          --powiat "dębicki"
+#          --Powiat "dębicki"
 #          --Datapoczatkowa "2022-10-10"
 #          --Datakoncowa "2022-12-30"
 #          --Emailklienta "mdrewniak@student.agh.edu.pl"
 #          --Email "drewniakmaciej55@gmail.com"
-#          --Hasło "********"
+#          --Haslo "********"
 #          --makspokrycie "20"
 #          --DestDataset_GEOTIFF "C:\Users\HP\Desktop\cw9"
 #          --FME_LAUNCH_VIEWER_APP "YES"
 #    
-#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
+#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
 #!   ARCGIS_COMPATIBILITY="ARCGIS_AUTO"
 #!   ATTR_TYPE_ENCODING="SDF"
-#!   BEGIN_PYTHON="#&lt;space&gt;Import&lt;space&gt;FME&lt;space&gt;Objects&lt;space&gt;module&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;from&lt;space&gt;datetime&lt;space&gt;import&lt;space&gt;datetime&lt;lf&gt;#&lt;space&gt;Create&lt;space&gt;FME&lt;space&gt;Log&lt;space&gt;File&lt;space&gt;object&lt;space&gt;name&lt;space&gt;called&lt;space&gt;logger&lt;lf&gt;logger&lt;space&gt;=&lt;space&gt;fmeobjects.FMELogFile&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;now=datetime.now&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;#&lt;space&gt;Call&lt;space&gt;logMessageString&lt;space&gt;method&lt;space&gt;to&lt;space&gt;add&lt;space&gt;custom&lt;space&gt;text&lt;space&gt;and&lt;space&gt;set&lt;space&gt;WARN&lt;space&gt;severity&lt;space&gt;level&lt;lf&gt;string=&lt;quote&gt;Drogi&lt;space&gt;uzytkowniku&lt;space&gt;$(Email)&lt;comma&gt;&lt;space&gt;o&lt;space&gt;godzinie&lt;space&gt;&lt;opencurly&gt;&lt;closecurly&gt;&lt;space&gt;rozpoczeto&lt;space&gt;przetwarzanie&lt;space&gt;danych&lt;space&gt;dla&lt;space&gt;powiatu&lt;space&gt;$(powiat)ego&lt;quote&gt;.format&lt;openparen&gt;now&lt;closeparen&gt;&lt;lf&gt;logger.logMessageString&lt;openparen&gt;string&lt;comma&gt;1&lt;closeparen&gt;&lt;lf&gt;"
+#!   BEGIN_PYTHON="import&lt;space&gt;smtplib&lt;comma&gt;&lt;space&gt;fme&lt;comma&gt;&lt;space&gt;ssl&lt;lf&gt;import&lt;space&gt;unicodedata&lt;lf&gt;to&lt;space&gt;=&lt;space&gt;&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;Emailklienta&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;gmail_user&lt;space&gt;=&lt;space&gt;&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;Email&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;gmail_pwd&lt;space&gt;=&lt;space&gt;&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;Haslo&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;powiat2&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;Powiat&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;def&lt;space&gt;polskie&lt;openparen&gt;s&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;return&lt;space&gt;&lt;apos&gt;&lt;apos&gt;.join&lt;openparen&gt;c&lt;space&gt;for&lt;space&gt;c&lt;space&gt;in&lt;space&gt;unicodedata.normalize&lt;openparen&gt;&lt;apos&gt;NFD&lt;apos&gt;&lt;comma&gt;&lt;space&gt;s&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;unicodedata.category&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;!=&lt;space&gt;&lt;apos&gt;Mn&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;powiat2=polskie&lt;openparen&gt;powiat2&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Sending&lt;space&gt;the&lt;space&gt;email&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Using&lt;space&gt;the&lt;space&gt;gmail&lt;space&gt;smtp&lt;space&gt;server&lt;lf&gt;#You&lt;space&gt;can&lt;space&gt;edit&lt;space&gt;this&lt;space&gt;line&lt;space&gt;to&lt;space&gt;use&lt;space&gt;your&lt;space&gt;own&lt;space&gt;email&lt;space&gt;server&lt;lf&gt;smtpserver&lt;space&gt;=&lt;space&gt;smtplib.SMTP_SSL&lt;openparen&gt;&lt;quote&gt;smtp.gmail.com&lt;quote&gt;&lt;comma&gt;465&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;smtpserver.login&lt;openparen&gt;gmail_user&lt;comma&gt;&lt;space&gt;gmail_pwd&lt;closeparen&gt;&lt;lf&gt;msg&lt;space&gt;=&lt;space&gt;f&lt;quote&gt;Drogi&lt;space&gt;uzytkowniku&lt;space&gt;&lt;opencurly&gt;to&lt;closecurly&gt;&lt;comma&gt;&lt;space&gt;rozpoczeto&lt;space&gt;przetwarzanie&lt;space&gt;danych&lt;space&gt;NDVI&lt;space&gt;dla&lt;space&gt;powiatu&lt;space&gt;&lt;opencurly&gt;powiat2&lt;closecurly&gt;ego&lt;space&gt;&lt;quote&gt;&lt;lf&gt;smtpserver.sendmail&lt;openparen&gt;gmail_user&lt;comma&gt;&lt;space&gt;to&lt;comma&gt;&lt;space&gt;msg&lt;closeparen&gt;&lt;lf&gt;print&lt;openparen&gt;&lt;apos&gt;done!&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;smtpserver.close&lt;openparen&gt;&lt;closeparen&gt;"
 #!   BEGIN_TCL=""
 #!   CATEGORY=""
 #!   DESCRIPTION=""
@@ -24,13 +24,13 @@
 #!   DESTINATION_ROUTING_FILE=""
 #!   DOC_EXTENTS="5756.96 1281.24"
 #!   DOC_TOP_LEFT="151.251 -1410.24"
-#!   END_PYTHON=""
+#!   END_PYTHON="import&lt;space&gt;smtplib&lt;comma&gt;&lt;space&gt;fme&lt;comma&gt;&lt;space&gt;ssl&lt;lf&gt;from&lt;space&gt;datetime&lt;space&gt;import&lt;space&gt;datetime&lt;lf&gt;import&lt;space&gt;unicodedata&lt;lf&gt;to&lt;space&gt;=&lt;space&gt;&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;Emailklienta&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;gmail_user&lt;space&gt;=&lt;space&gt;&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;Email&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;gmail_pwd&lt;space&gt;=&lt;space&gt;&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;Haslo&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;powiat2&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;Powiat&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;def&lt;space&gt;polskie&lt;openparen&gt;s&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;return&lt;space&gt;&lt;apos&gt;&lt;apos&gt;.join&lt;openparen&gt;c&lt;space&gt;for&lt;space&gt;c&lt;space&gt;in&lt;space&gt;unicodedata.normalize&lt;openparen&gt;&lt;apos&gt;NFD&lt;apos&gt;&lt;comma&gt;&lt;space&gt;s&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;unicodedata.category&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;!=&lt;space&gt;&lt;apos&gt;Mn&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;powiat2=polskie&lt;openparen&gt;powiat2&lt;closeparen&gt;&lt;lf&gt;data&lt;space&gt;=&lt;space&gt;datetime.now&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Sending&lt;space&gt;the&lt;space&gt;email&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Using&lt;space&gt;the&lt;space&gt;gmail&lt;space&gt;smtp&lt;space&gt;server&lt;lf&gt;#You&lt;space&gt;can&lt;space&gt;edit&lt;space&gt;this&lt;space&gt;line&lt;space&gt;to&lt;space&gt;use&lt;space&gt;your&lt;space&gt;own&lt;space&gt;email&lt;space&gt;server&lt;lf&gt;smtpserver&lt;space&gt;=&lt;space&gt;smtplib.SMTP_SSL&lt;openparen&gt;&lt;quote&gt;smtp.gmail.com&lt;quote&gt;&lt;comma&gt;465&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;smtpserver.login&lt;openparen&gt;gmail_user&lt;comma&gt;&lt;space&gt;gmail_pwd&lt;closeparen&gt;&lt;lf&gt;msg&lt;space&gt;=&lt;space&gt;f&lt;quote&gt;Proces&lt;space&gt;zostal&lt;space&gt;pomyslnie&lt;space&gt;wykonany&lt;backslash&gt;n&lt;quote&gt;&lt;lf&gt;smtpserver.sendmail&lt;openparen&gt;gmail_user&lt;comma&gt;&lt;space&gt;to&lt;comma&gt;&lt;space&gt;msg&lt;closeparen&gt;&lt;lf&gt;print&lt;openparen&gt;&lt;apos&gt;done!&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;smtpserver.close&lt;openparen&gt;&lt;closeparen&gt;"
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="22765"
 #!   FME_BULK_MODE_THRESHOLD="2000"
-#!   FME_DOCUMENT_GUID="227eb5dd-328b-41f8-a50c-2ed4497b114d"
-#!   FME_DOCUMENT_PRIORGUID="0230ae1b-5537-4ab9-a7a9-c45065928e1d,88ad777c-371c-4fae-a492-07b8156b437e,bb16757c-8ad4-419b-ba68-ff62d24f47ab"
+#!   FME_DOCUMENT_GUID="01a04343-99c0-495b-a128-c551ea66d0cb"
+#!   FME_DOCUMENT_PRIORGUID="0230ae1b-5537-4ab9-a7a9-c45065928e1d,88ad777c-371c-4fae-a492-07b8156b437e,bb16757c-8ad4-419b-ba68-ff62d24f47ab,227eb5dd-328b-41f8-a50c-2ed4497b114d,7ec42356-ba17-492b-86f1-4e190af1332b,6806fed3-ae54-4707-8d49-3e9ae54bf958"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_NAMES_ENCODING="UTF-8"
@@ -40,7 +40,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2022.2.0.0 (20221103 - Build 22765 - WIN64)"
-#!   LAST_SAVE_DATE="2023-01-01T22:47:49"
+#!   LAST_SAVE_DATE="2023-01-08T21:46:00"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -59,7 +59,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="2278.15 -315.628"
+#!   VIEW_POSITION="1762.52 21.8752"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -790,8 +790,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="24"
 #!   FEAT_GEOMTYPE="&lt;NO_GEOMETRY&gt;"
-#!   POSITION="4897.7934379343806 -890.63390633906329"
-#!   BOUNDING_RECT="4897.7934379343806 -890.63390633906329 652.79794325772946 71"
+#!   POSITION="5188.4213442134433 -826.61053110531111"
+#!   BOUNDING_RECT="5188.4213442134433 -826.61053110531111 652.79794325772946 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="false"
 #!   KEYWORD="GEOTIFF_1"
@@ -799,7 +799,7 @@
 #!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="0"
 #! >
-#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="char(200)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="_clipped" ATTR_TYPE="char(3)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="geotiff_advanced_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="geotiff_byte_order" PARM_VALUE="machine"/>
@@ -847,22 +847,6 @@
 #!   DATASET="GEOTIFF_1/cw9"
 #! />
 #! </WRITER_DATASETS>
-#! <DEPENDENCIES>
-#! <PACKAGES>
-#! <PACKAGE
-#!   NAME="safe.emailer"
-#!   VERSION="3.2.1"
-#! />
-#! </PACKAGES>
-#! </DEPENDENCIES>
-#! <CONNECTIONS>
-#! <CONNECTION
-#!   NAME="hp Google Gmail (safe.emailer)"
-#!   TYPE="WEB"
-#!   FAMILY="safe.emailer.Google Gmail"
-#!   USAGE="INTERNAL"
-#! />
-#! </CONNECTIONS>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
@@ -871,7 +855,7 @@
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI STRING powiat Wprowadź nazwę powiatu"
+#!   GUI_LINE="GUI STRING_OR_ATTR Powiat Wprowadź nazwę powiatu"
 #!   DEFAULT_VALUE="dębicki"
 #!   IS_STAND_ALONE="true"
 #! />
@@ -891,13 +875,13 @@
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI STRING Email Wprowadź Email"
+#!   GUI_LINE="GUI STRING_OR_ATTR Email Wprowadź Email"
 #!   DEFAULT_VALUE="drewniakmaciej55@gmail.com"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI PASSWORD_OR_ATTR Hasło Enter a Password"
-#!   DEFAULT_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszfWdMDZcPrF7ev0xP1XYglHUdHYQiH/maoxktQDa3SgOP/91hrZl2UGNMH/oIIuOeNdGYtIU8DtucGJ4kpqYNBw//3rYGS06lRaVGVMfb4UD+0CuyFRzeo3lfWOSNRRSqKXBDIoqQ/8DESi1B9KnsZ8Y6gQf+vVpT063i2FtbYfKmi3IYyT3jMVxm5EA5Dd2WNCRD4RUp5wz/zRoiXtUW85oih+ljdVpbTTSFxurszIVUv5cI3Gvg4IEpKVNyE2EpHhNm+7OmN40p9eQPLtzxfhNVPFbcd5W4uj7sC1a4rgKxsn/3EKYX2LbfSHvEufQ0G+o5uQxzqyk9OMxHsH+X8RLBwI4naxU3)"
+#!   GUI_LINE="GUI PASSWORD_OR_ATTR Haslo Enter a Password"
+#!   DEFAULT_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszNftS6YyMNhOUdk1KB+RNVKbV2LD0SO/4rFXL52ODQAod+jk8HVJBtYdmZYmRzNsVy7gvULOW1y7nc3APtvvvhRrhkVEm0tzYZVPWBavg4l6W/vPVfQo16dcwM16u9wc6IT7H5AdsXI53/iM6dNfmsgEx6Fa71JDktj3JSmMekxDiA/cC6yuSQL9BHoRc9ouj3xZi1feplFJfeJh8M2l49IsUoB/FGECWcVPgEdVU6l9NURYx05JohsHCE5ulKcTzvAwD4F21aYjMuMEnBIHHflF06XCsiag9ZK7WgNr6WdtFl2jMpHEMgfIJT1MPXtfdIKtmG479tJlC1jtKfDXoNLZiS1PjJVyE)"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
@@ -912,7 +896,7 @@
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <USER_PARAMETERS
-#!   FORM="eyJwYXJhbWV0ZXJzIjpbeyJhY2Nlc3NNb2RlIjoicmVhZCIsImRlZmF1bHRWYWx1ZSI6IiQoRk1FX01GX0RJUilwb3dpYXR5LnNocCIsImZpbHRlcnMiOlt7ImRlc2NyaXB0aW9uIjoiU2hhcGVmaWxlcyIsImZpbHRlciI6WyIqLnNocCJdfSx7ImRlc2NyaXB0aW9uIjoiQ29tcHJlc3NlZCBTaGFwZWZpbGVzIiwiZmlsdGVyIjpbIiouc2h6Il19LHsiZGVzY3JpcHRpb24iOiJBcmNoaXZlIEZpbGVzIiwiZmlsdGVyIjpbIiouN3oiLCIqLjd6aXAiLCIqLnJhciIsIioucnZ6IiwiKi50YXIiLCIqLnRhci5iejIiLCIqLnRhci5neiIsIioudGd6IiwiKi56aXAiLCIqLnppcHgiXX0seyJkZXNjcmlwdGlvbiI6IkNvbXByZXNzZWQgRmlsZXMiLCJmaWx0ZXIiOlsiKi5iejIiLCIqLmd6Il19LHsiZGVzY3JpcHRpb24iOiJBbGwgRmlsZXMiLCJmaWx0ZXIiOlsiKiJdfV0sImhpZGRlbiI6ZmFsc2UsImluY2x1ZGVXZWJCcm93c2VyIjp0cnVlLCJpdGVtc1RvU2VsZWN0IjoiZmlsZXMiLCJuYW1lIjoiU291cmNlRGF0YXNldF9TSEFQRUZJTEUiLCJwcm9tcHQiOiJTb3VyY2UgRXNyaSBTaGFwZWZpbGUocykiLCJyZXF1aXJlZCI6dHJ1ZSwic2VsZWN0TXVsdGlwbGUiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJmaWxlIiwidmFsaWRhdGVFeGlzdGVuY2UiOmZhbHNlLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImRlZmF1bHRWYWx1ZSI6ImTEmWJpY2tpIiwiaGlkZGVuIjpmYWxzZSwibmFtZSI6InBvd2lhdCIsInByb21wdCI6Ildwcm93YWTFuiBuYXp3xJkgcG93aWF0dSIsInJlcXVpcmVkIjp0cnVlLCJzaG93RWRpdEJ1dHRvbiI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJ0ZXh0IiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJkZWZhdWx0VmFsdWUiOiIyMDIyLTEwLTEwIiwiaGlkZGVuIjpmYWxzZSwibmFtZSI6IkRhdGFwb2N6YXRrb3dhIiwicHJvbXB0IjoiV3Byb3dhZMW6IGRhdMSZIHBvY3rEhXRrb3fEhSIsInJlcXVpcmVkIjp0cnVlLCJzaG93RWRpdEJ1dHRvbiI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJ0ZXh0IiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJkZWZhdWx0VmFsdWUiOiIyMDIyLTEyLTMwIiwiaGlkZGVuIjpmYWxzZSwibmFtZSI6IkRhdGFrb25jb3dhIiwicHJvbXB0IjoiV3Byb3dhZMW6IGRhdMSZIGtvxYRjb3fEhSIsInJlcXVpcmVkIjp0cnVlLCJzaG93RWRpdEJ1dHRvbiI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoibWRyZXduaWFrQHN0dWRlbnQuYWdoLmVkdS5wbCIsImhpZGRlbiI6ZmFsc2UsIm5hbWUiOiJFbWFpbGtsaWVudGEiLCJwcm9tcHQiOiJXcHJvd2FkxbogZW1haWwga2xpZW50YSIsInJlcXVpcmVkIjp0cnVlLCJzaG93RWRpdEJ1dHRvbiI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiZHJld25pYWttYWNpZWo1NUBnbWFpbC5jb20iLCJoaWRkZW4iOmZhbHNlLCJuYW1lIjoiRW1haWwiLCJwcm9tcHQiOiJXcHJvd2FkxbogRW1haWwiLCJyZXF1aXJlZCI6dHJ1ZSwic2hvd0VkaXRCdXR0b24iOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiZm1lX2RlY3J5cHQoTURvd2ZDTjhJM3hjRzNHUS9UZVJSVUpVWjVMRFB0ZHZwc2NiaDdOajlnRy9JTkJrQUdBK2ZrYURyTmJoWnRmYTNybWtVVXJDeEtXYUFGd2lZc0tnV0pObC8wbVJweFV1UCtJVDJjK1FoaDI2SkVadFVXQW1wdW9hUUNkUTN5a0tXbTJ6YW9BTTVNQkNHYUdFdVllKzZBUzA3L25MTlJKd3FwMWpkd1AxRmdWQ2JYUnZadFdmS2pFWmxOSllRK0VpY1ZjNmN2MkR4Q1lKeVRsanZYd0Y4bUt4ZW5NTDZGS0ppSEFSUUNPOE9NSmlkS0taUUpQMVNlWUlocUIwWXJ0R3c0Y0dWMlpxdVFLaWZ2UmpCMlRsNndCQVdEbWVDZytSMWp2ZnQxdFIxN1NJU3lURHY3N0srbVY4MHcyYWFVU2d5YmJGN2NvTTBCclFQY3BlaGZqbFcrWXhWNzMrOW1QTUZYS1Flem5aMjJUOE1Kb3I1N080NHA4VTJOUUN3MzVIaUZCczBvVlA5VmtrWTBEL1d6R1JldnNleVgxcElFV0pTUVNGd2tKVmhpeVhhdk1EejVFNVNFWWdUWkhmVmVHQlhDRHVJRUViZlJSa1BVNXlEMm53MlpBVmltRFJEN1VRaEVFWTZQb3NHcVUxN0hlNHkzNVdFZkFnZ1E0MCtFS3V1cE9RU1pSc0tvdFRUcWxZR0hKdFg0OXltdUtxZnlaek9BVVNVekRNY2o4Z2ZEZ3pPQ2N1aHcyc0szZkphTXN6ZldkTURaY1ByRjdldjB4UDFYWWdsSFVkSFlRaUgvbWFveGt0UURhM1NnT1AvOTFoclpsMlVHTk1IL29JSXVPZU5kR1l0SVU4RHR1Y0dKNGtwcVlOQncvLzNyWUdTMDZsUmFWR1ZNZmI0VUQrMEN1eUZSemVvM2xmV09TTlJSU3FLWEJESW9xUS84REVTaTFCOUtuc1o4WTZnUWYrdlZwVDA2M2kyRnRiWWZLbWkzSVl5VDNqTVZ4bTVFQTVEZDJXTkNSRDRSVXA1d3ovelJvaVh0VVc4NW9paCtsamRWcGJUVFNGeHVyc3pJVlV2NWNJM0d2ZzRJRXBLVk55RTJFcEhoTm0rN09tTjQwcDllUVBMdHp4ZmhOVlBGYmNkNVc0dWo3c0MxYTRyZ0t4c24vM0VLWVgyTGJmU0h2RXVmUTBHK281dVF4enF5azlPTXhIc0grWDhSTEJ3STRuYXhVMykiLCJuYW1lIjoiSGFzxYJvIiwicHJvbXB0IjoiRW50ZXIgYSBQYXNzd29yZCIsInJlcXVpcmVkIjp0cnVlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6InBhc3N3b3JkIiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJkZWZhdWx0VmFsdWUiOiIyMCIsImhpZGRlbiI6ZmFsc2UsIm5hbWUiOiJtYWtzcG9rcnljaWUiLCJwcm9tcHQiOiJXcHJvd2FkxbogbWFrc3ltYWxuZSBwb2tyeWNpZSBjaG11cmFtaSIsInJlcXVpcmVkIjp0cnVlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6Im51bWJlciIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiYWNjZXNzTW9kZSI6IndyaXRlIiwiZGVmYXVsdFZhbHVlIjoiQzpcXFVzZXJzXFxIUFxcRGVza3RvcFxcY3c5IiwiaXRlbXNUb1NlbGVjdCI6ImZvbGRlcnMiLCJuYW1lIjoiRGVzdERhdGFzZXRfR0VPVElGRiIsInByb21wdCI6IkRlc3RpbmF0aW9uIEdlb1RJRkYgRm9sZGVyOiIsInJlcXVpcmVkIjp0cnVlLCJzZWxlY3RNdWx0aXBsZSI6ZmFsc2UsInR5cGUiOiJmaWxlIiwidmFsaWRhdGVFeGlzdGVuY2UiOmZhbHNlLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifV19"
+#!   FORM="eyJwYXJhbWV0ZXJzIjpbeyJhY2Nlc3NNb2RlIjoicmVhZCIsImRlZmF1bHRWYWx1ZSI6IiQoRk1FX01GX0RJUilwb3dpYXR5LnNocCIsImZpbHRlcnMiOlt7ImRlc2NyaXB0aW9uIjoiU2hhcGVmaWxlcyIsImZpbHRlciI6WyIqLnNocCJdfSx7ImRlc2NyaXB0aW9uIjoiQ29tcHJlc3NlZCBTaGFwZWZpbGVzIiwiZmlsdGVyIjpbIiouc2h6Il19LHsiZGVzY3JpcHRpb24iOiJBcmNoaXZlIEZpbGVzIiwiZmlsdGVyIjpbIiouN3oiLCIqLjd6aXAiLCIqLnJhciIsIioucnZ6IiwiKi50YXIiLCIqLnRhci5iejIiLCIqLnRhci5neiIsIioudGd6IiwiKi56aXAiLCIqLnppcHgiXX0seyJkZXNjcmlwdGlvbiI6IkNvbXByZXNzZWQgRmlsZXMiLCJmaWx0ZXIiOlsiKi5iejIiLCIqLmd6Il19LHsiZGVzY3JpcHRpb24iOiJBbGwgRmlsZXMiLCJmaWx0ZXIiOlsiKiJdfV0sImhpZGRlbiI6ZmFsc2UsImluY2x1ZGVXZWJCcm93c2VyIjp0cnVlLCJpdGVtc1RvU2VsZWN0IjoiZmlsZXMiLCJuYW1lIjoiU291cmNlRGF0YXNldF9TSEFQRUZJTEUiLCJwcm9tcHQiOiJTb3VyY2UgRXNyaSBTaGFwZWZpbGUocykiLCJyZXF1aXJlZCI6dHJ1ZSwic2VsZWN0TXVsdGlwbGUiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJmaWxlIiwidmFsaWRhdGVFeGlzdGVuY2UiOmZhbHNlLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImRlZmF1bHRWYWx1ZSI6ImTEmWJpY2tpIiwiaGlkZGVuIjpmYWxzZSwibmFtZSI6IlBvd2lhdCIsInByb21wdCI6Ildwcm93YWTFuiBuYXp3xJkgcG93aWF0dSIsInJlcXVpcmVkIjp0cnVlLCJzaG93RWRpdEJ1dHRvbiI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiMjAyMi0xMC0xMCIsImhpZGRlbiI6ZmFsc2UsIm5hbWUiOiJEYXRhcG9jemF0a293YSIsInByb21wdCI6Ildwcm93YWTFuiBkYXTEmSBwb2N6xIV0a293xIUiLCJyZXF1aXJlZCI6dHJ1ZSwic2hvd0VkaXRCdXR0b24iOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiMjAyMi0xMi0zMCIsImhpZGRlbiI6ZmFsc2UsIm5hbWUiOiJEYXRha29uY293YSIsInByb21wdCI6Ildwcm93YWTFuiBkYXTEmSBrb8WEY293xIUiLCJyZXF1aXJlZCI6dHJ1ZSwic2hvd0VkaXRCdXR0b24iOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6InRleHQiLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImRlZmF1bHRWYWx1ZSI6Im1kcmV3bmlha0BzdHVkZW50LmFnaC5lZHUucGwiLCJoaWRkZW4iOmZhbHNlLCJuYW1lIjoiRW1haWxrbGllbnRhIiwicHJvbXB0IjoiV3Byb3dhZMW6IGVtYWlsIGtsaWVudGEiLCJyZXF1aXJlZCI6dHJ1ZSwic2hvd0VkaXRCdXR0b24iOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6InRleHQiLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImRlZmF1bHRWYWx1ZSI6ImRyZXduaWFrbWFjaWVqNTVAZ21haWwuY29tIiwiaGlkZGVuIjpmYWxzZSwibmFtZSI6IkVtYWlsIiwicHJvbXB0IjoiV3Byb3dhZMW6IEVtYWlsIiwicmVxdWlyZWQiOnRydWUsInNob3dFZGl0QnV0dG9uIjpmYWxzZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJ0ZXh0IiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJkZWZhdWx0VmFsdWUiOiJmbWVfZGVjcnlwdChNRG93ZkNOOEkzeGNHM0dRL1RlUlJVSlVaNUxEUHRkdnBzY2JoN05qOWdHL0lOQmtBR0ErZmthRHJOYmhadGZhM3Jta1VVckN4S1dhQUZ3aVlzS2dXSk5sLzBtUnB4VXVQK0lUMmMrUWhoMjZKRVp0VVdBbXB1b2FRQ2RRM3lrS1dtMnphb0FNNU1CQ0dhR0V1WWUrNkFTMDcvbkxOUkp3cXAxamR3UDFGZ1ZDYlhSdlp0V2ZLakVabE5KWVErRWljVmM2Y3YyRHhDWUp5VGxqdlh3RjhtS3hlbk1MNkZLSmlIQVJRQ084T01KaWRLS1pRSlAxU2VZSWhxQjBZcnRHdzRjR1YyWnF1UUtpZnZSakIyVGw2d0JBV0RtZUNnK1IxanZmdDF0UjE3U0lTeVREdjc3SyttVjgwdzJhYVVTZ3liYkY3Y29NMEJyUVBjcGVoZmpsVytZeFY3Mys5bVBNRlhLUWV6bloyMlQ4TUpvcjU3TzQ0cDhVMk5RQ3czNUhpRkJzMG9WUDlWa2tZMEQvV3pHUmV2c2V5WDFwSUVXSlNRU0Z3a0pWaGl5WGF2TUR6NUU1U0VZZ1RaSGZWZUdCWENEdUlFRWJmUlJrUFU1eUQybncyWkFWaW1EUkQ3VVFoRUVZNlBvc0dxVTE3SGU0eTM1V0VmQWdnUTQwK0VLdXVwT1FTWlJzS290VFRxbFlHSEp0WDQ5eW11S3FmeVp6T0FVU1V6RE1jajhnZkRnek9DY3VodzJzSzNmSmFNc3pOZnRTNll5TU5oT1VkazFLQitSTlZLYlYyTEQwU08vNHJGWEw1Mk9EUUFvZCtqazhIVkpCdFlkbVpZbVJ6TnNWeTdndlVMT1cxeTduYzNBUHR2dnZoUnJoa1ZFbTB0ellaVlBXQmF2ZzRsNlcvdlBWZlFvMTZkY3dNMTZ1OXdjNklUN0g1QWRzWEk1My9pTTZkTmZtc2dFeDZGYTcxSkRrdGozSlNtTWVreERpQS9jQzZ5dVNRTDlCSG9SYzlvdWozeFppMWZlcGxGSmZlSmg4TTJsNDlJc1VvQi9GR0VDV2NWUGdFZFZVNmw5TlVSWXgwNUpvaHNIQ0U1dWxLY1R6dkF3RDRGMjFhWWpNdU1FbkJJSEhmbEYwNlhDc2lhZzlaSzdXZ05yNldkdEZsMmpNcEhFTWdmSUpUMU1QWHRmZElLdG1HNDc5dEpsQzFqdEtmRFhvTkxaaVMxUGpKVnlFKSIsIm5hbWUiOiJIYXNsbyIsInByb21wdCI6IkVudGVyIGEgUGFzc3dvcmQiLCJyZXF1aXJlZCI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJwYXNzd29yZCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiMjAiLCJoaWRkZW4iOmZhbHNlLCJuYW1lIjoibWFrc3Bva3J5Y2llIiwicHJvbXB0IjoiV3Byb3dhZMW6IG1ha3N5bWFsbmUgcG9rcnljaWUgY2htdXJhbWkiLCJyZXF1aXJlZCI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJudW1iZXIiLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImFjY2Vzc01vZGUiOiJ3cml0ZSIsImRlZmF1bHRWYWx1ZSI6IkM6XFxVc2Vyc1xcSFBcXERlc2t0b3BcXGN3OSIsIml0ZW1zVG9TZWxlY3QiOiJmb2xkZXJzIiwibmFtZSI6IkRlc3REYXRhc2V0X0dFT1RJRkYiLCJwcm9tcHQiOiJEZXN0aW5hdGlvbiBHZW9USUZGIEZvbGRlcjoiLCJyZXF1aXJlZCI6dHJ1ZSwic2VsZWN0TXVsdGlwbGUiOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoiZmlsZSIsInZhbGlkYXRlRXhpc3RlbmNlIjpmYWxzZSwidmFsdWVUeXBlIjoic3RyaW5nIn1dfQ=="
 #! >
 #! <PARAMETER_INFO>
 #!     <INFO NAME="SourceDataset_SHAPEFILE" 
@@ -921,11 +905,11 @@
 #!   GENERATED_GUI_LINE="true"
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_SHAPEFILE INCLUDE_WEB_BROWSER%Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|All_Files(*)|* Source Esri Shapefile(s)"
 #! />
-#!     <INFO NAME="powiat" 
+#!     <INFO NAME="Powiat" 
 #!   DEFAULT_VALUE="dębicki"
 #!   SCOPE="STAND_ALONE"
 #!   GENERATED_GUI_LINE="true"
-#!   GUI_LINE="GUI STRING powiat Wprowadź nazwę powiatu"
+#!   GUI_LINE="GUI STRING_OR_ATTR Powiat Wprowadź nazwę powiatu"
 #! />
 #!     <INFO NAME="Datapoczatkowa" 
 #!   DEFAULT_VALUE="2022-10-10"
@@ -949,13 +933,13 @@
 #!   DEFAULT_VALUE="drewniakmaciej55@gmail.com"
 #!   SCOPE="STAND_ALONE"
 #!   GENERATED_GUI_LINE="true"
-#!   GUI_LINE="GUI STRING Email Wprowadź Email"
+#!   GUI_LINE="GUI STRING_OR_ATTR Email Wprowadź Email"
 #! />
-#!     <INFO NAME="Hasło" 
-#!   DEFAULT_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszfWdMDZcPrF7ev0xP1XYglHUdHYQiH/maoxktQDa3SgOP/91hrZl2UGNMH/oIIuOeNdGYtIU8DtucGJ4kpqYNBw//3rYGS06lRaVGVMfb4UD+0CuyFRzeo3lfWOSNRRSqKXBDIoqQ/8DESi1B9KnsZ8Y6gQf+vVpT063i2FtbYfKmi3IYyT3jMVxm5EA5Dd2WNCRD4RUp5wz/zRoiXtUW85oih+ljdVpbTTSFxurszIVUv5cI3Gvg4IEpKVNyE2EpHhNm+7OmN40p9eQPLtzxfhNVPFbcd5W4uj7sC1a4rgKxsn/3EKYX2LbfSHvEufQ0G+o5uQxzqyk9OMxHsH+X8RLBwI4naxU3)"
+#!     <INFO NAME="Haslo" 
+#!   DEFAULT_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszNftS6YyMNhOUdk1KB+RNVKbV2LD0SO/4rFXL52ODQAod+jk8HVJBtYdmZYmRzNsVy7gvULOW1y7nc3APtvvvhRrhkVEm0tzYZVPWBavg4l6W/vPVfQo16dcwM16u9wc6IT7H5AdsXI53/iM6dNfmsgEx6Fa71JDktj3JSmMekxDiA/cC6yuSQL9BHoRc9ouj3xZi1feplFJfeJh8M2l49IsUoB/FGECWcVPgEdVU6l9NURYx05JohsHCE5ulKcTzvAwD4F21aYjMuMEnBIHHflF06XCsiag9ZK7WgNr6WdtFl2jMpHEMgfIJT1MPXtfdIKtmG479tJlC1jtKfDXoNLZiS1PjJVyE)"
 #!   SCOPE="STAND_ALONE"
 #!   GENERATED_GUI_LINE="true"
-#!   GUI_LINE="GUI PASSWORD_OR_ATTR Hasło Enter a Password"
+#!   GUI_LINE="GUI PASSWORD_OR_ATTR Haslo Enter a Password"
 #! />
 #!     <INFO NAME="makspokrycie" 
 #!   DEFAULT_VALUE="20"
@@ -1070,7 +1054,7 @@
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="CASE_INSENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;JPT_NAZWA_&lt;closeparen&gt; LIKE powiat&lt;space&gt;$(powiat)"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="CASE_INSENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;JPT_NAZWA_&lt;closeparen&gt; LIKE powiat&lt;space&gt;$(Powiat)"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="CASE_INSENSITIVE_TEST"/>
 #!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1143,7 +1127,7 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SentinelDownloader"/>
 #!     <XFORM_PARM PARM_NAME="key_name" PARM_VALUE="mdrewniak"/>
-#!     <XFORM_PARM PARM_NAME="key_pw" PARM_VALUE="$(Hasło)"/>
+#!     <XFORM_PARM PARM_NAME="key_pw" PARM_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszfXvkNQX/+i6DQZGpQPe/U4rAnMJd5LscoSPSq+cCUeNOaWsluHgOQUCWeTaAVA5iTLdnS+CsCeVxhEu/oMdyd7iaLulyEPLE6vLWLyAdvrqyAC982GHJMAfRnpaTieq8fiYsWe+54AsVDmvOj++fE767zK30mSl4O/JGnJH6IhX0gkx3Hs2Lw5YVeo1woBrWk0TXLTlAFZ9rel4Bijws0Jc4JM0CR0Ho3hL76CGL3Gy09RP40wQcqd17nXe1u2PCbj1bC9UZywojyVDnAsiaLZeiSy3kTMY01KWoeaGNYNp8lCQTZkAmQuugYVUTwpv+ZvbXEWHhgEq4NtCM07bA0/WbRAaGUKzJ)"/>
 #!     <XFORM_PARM PARM_NAME="platform" PARM_VALUE="Sentinel-2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1236,8 +1220,8 @@
 #!   IDENTIFIER="14"
 #!   TYPE="NDVICalculator"
 #!   VERSION="2"
-#!   POSITION="3315.6581565815645 -391.87771877718717"
-#!   BOUNDING_RECT="3315.6581565815645 -391.87771877718717 430 71"
+#!   POSITION="3703.1620316203143 -341.87721877218712"
+#!   BOUNDING_RECT="3703.1620316203143 -341.87721877218712 430 71"
 #!   ORDER="500000000000010"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1305,8 +1289,8 @@
 #!   IDENTIFIER="17"
 #!   TYPE="Sampler"
 #!   VERSION="5"
-#!   POSITION="2684.4018440184391 -890.63390633906329"
-#!   BOUNDING_RECT="2684.4018440184391 -890.63390633906329 454 71"
+#!   POSITION="2684.4018440184391 -908.99912499125003"
+#!   BOUNDING_RECT="2684.4018440184391 -908.99912499125003 454 71"
 #!   ORDER="500000000000006"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1332,8 +1316,8 @@
 #!   IDENTIFIER="27"
 #!   TYPE="Reprojector"
 #!   VERSION="5"
-#!   POSITION="3303.1580315803162 -781.25781257812571"
-#!   BOUNDING_RECT="3303.1580315803162 -781.25781257812571 454 71"
+#!   POSITION="3621.9112191121912 -826.61053110531111"
+#!   BOUNDING_RECT="3621.9112191121912 -826.61053110531111 454 71"
 #!   ORDER="500000000000017"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1391,8 +1375,8 @@
 #!   IDENTIFIER="36"
 #!   TYPE="Clipper"
 #!   VERSION="14"
-#!   POSITION="3995.9668596685951 -826.61053110531111"
-#!   BOUNDING_RECT="3995.9668596685951 -826.61053110531111 430 71"
+#!   POSITION="4302.2199221992214 -666.2530625306249"
+#!   BOUNDING_RECT="4302.2199221992214 -666.2530625306249 430 71"
 #!   ORDER="500000000000020"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1484,42 +1468,6 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Clipper"/>
 #!     <XFORM_PARM PARM_NAME="Z_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="Z_VAL_SOURCE" PARM_VALUE="CANDIDATE"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="37"
-#!   TYPE="safe.emailer.Emailer"
-#!   VERSION="1"
-#!   POSITION="4937.1680316803158 -511.87771877718717"
-#!   BOUNDING_RECT="4937.1680316803158 -511.87771877718717 454 71"
-#!   ORDER="500000000000021"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="22765"
-#! >
-#!     <OUTPUT_FEAT NAME="Sent"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ADDRESSING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTACHGROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="ATTACHMENTTABLE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="BCC" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="BODY" PARM_VALUE="Proces&lt;space&gt;zosta&lt;u0142&gt;&lt;space&gt;pomy&lt;u015b&gt;lnie&lt;space&gt;wykonany"/>
-#!     <XFORM_PARM PARM_NAME="CC" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FROM" PARM_VALUE="$(Email)"/>
-#!     <XFORM_PARM PARM_NAME="SERVICE" PARM_VALUE="Gmail"/>
-#!     <XFORM_PARM PARM_NAME="SERVICEGROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SMTP_CONNECTION" PARM_VALUE="GMAIL_NAMED_CONNECTION;hp&lt;space&gt;Google&lt;space&gt;Gmail&lt;space&gt;&lt;openparen&gt;safe.emailer&lt;closeparen&gt;;TIMEOUT;60;FME_CONTROLLER_QUERY_FILE;dependencies&lt;solidus&gt;Gmail.fme;FME_CONTROLLER_CHOICE;Gmail"/>
-#!     <XFORM_PARM PARM_NAME="SUBJECT" PARM_VALUE="FME&lt;space&gt;cw9"/>
-#!     <XFORM_PARM PARM_NAME="TO" PARM_VALUE="$(Emailklienta)"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Emailer"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="39"
@@ -1718,28 +1666,13 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="38"
-#!   SOURCE_NODE="36"
-#!   TARGET_NODE="37"
-#!   SOURCE_PORT_DESC="fo 0 INSIDE"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   COLOUR="0,0,0,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="40"
 #!   SOURCE_NODE="36"
 #!   TARGET_NODE="39"
 #!   SOURCE_PORT_DESC="fo 0 INSIDE"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
-#!   EXECUTION_IDX="2"
+#!   EXECUTION_IDX="1"
 #!   HIDDEN="false"
 #!   COLOUR="0,0,0,1"
 #!   PEN_WIDTH="4"
@@ -2307,7 +2240,7 @@
 #!   BOUNDING_RECT="-8404.51833918794 687.90649194895514 3632.6462394726577 634.15846787500141"
 #!   STICKY="true"
 #!   COLOUR="0.69019607843137254,0.7803921568627451,0.28627450980392155,0.39215686274509803"
-#!   CONTENTS="103 24 106 18 104 19 21 220 "
+#!   CONTENTS="103 18 24 19 220 106 104 21 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2321,7 +2254,7 @@
 #!   BOUNDING_RECT="-8398.6220538099915 -38.338046202902092 3633.7065656890582 652.06173436734377"
 #!   STICKY="true"
 #!   COLOUR="0.0039215686274509803,0.45490196078431372,0.082352941176470587,0.39215686274509803"
-#!   CONTENTS="219 109 17 40 112 122 28 25 "
+#!   CONTENTS="17 28 112 25 122 40 219 109 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2335,7 +2268,7 @@
 #!   BOUNDING_RECT="-8404.51833918794 -739.54167586765038 3633.7065656890582 724.6135665507386"
 #!   STICKY="true"
 #!   COLOUR="0,0,0.80000000000000004,0.39215686274509803"
-#!   CONTENTS="113 39 119 120 221 243 38 31 30 37 121 183 "
+#!   CONTENTS="38 121 31 119 37 39 183 120 221 113 30 243 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2349,7 +2282,7 @@
 #!   BOUNDING_RECT="220.62880536082525 -230.91103091835373 3049.7105313518887 605.23820078346796"
 #!   STICKY="true"
 #!   COLOUR="0.51764705882352946,0.45490196078431372,0.78823529411764703,0.39215686274509803"
-#!   CONTENTS="22 35 117 116 118 33 179 107 23 111 34 27 "
+#!   CONTENTS="179 33 22 111 118 23 27 107 117 116 34 35 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2363,7 +2296,7 @@
 #!   BOUNDING_RECT="-7107.5371198508428 -835.53238645968781 1273.9628423681497 276"
 #!   STICKY="true"
 #!   COLOUR="0.30980392156862746,0.35294117647058826,0.792156862745098,0.39215686274509803"
-#!   CONTENTS="119 37 38 "
+#!   CONTENTS="38 119 37 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2377,7 +2310,7 @@
 #!   BOUNDING_RECT="-9216.4766226123938 797.90649194895514 5002.385341699719 2297.0617343673443"
 #!   STICKY="true"
 #!   COLOUR="0.70980392156862748,0.44313725490196076,0.70588235294117652,0.39215686274509803"
-#!   CONTENTS="109 26 25 17 28 37 202 121 183 221 112 243 19 103 29 240 224 119 18 120 181 206 239 24 106 30 110 21 113 39 122 241 219 38 31 40 104 220 "
+#!   CONTENTS="28 240 181 37 220 183 122 30 241 38 243 26 21 18 109 25 19 221 29 206 31 202 110 39 24 112 113 104 40 17 103 121 119 106 120 239 219 224 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2391,7 +2324,7 @@
 #!   BOUNDING_RECT="-4138.2785475312539 423.80560791909289 4108.978160114757 1849.7375237275421"
 #!   STICKY="true"
 #!   COLOUR="0.59215686274509804,0.75294117647058822,0.90980392156862744,1"
-#!   CONTENTS="178 42 36 47 44 195 249 66 147 124 69 67 148 230 145 65 68 223 186 229 228 20 45 227 238 105 226 196 127 48 46 126 146 185 "
+#!   CONTENTS="126 229 147 66 223 45 178 148 195 124 238 20 36 105 47 228 65 67 249 145 48 127 186 42 227 44 46 69 230 146 185 68 196 226 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2405,7 +2338,7 @@
 #!   BOUNDING_RECT="8224.4953955232977 458.33791671250037 2289.6284373038125 2116.6878335450019"
 #!   STICKY="true"
 #!   COLOUR="0.81568627450980391,0.5607843137254902,0.85882352941176465,1"
-#!   CONTENTS="6 3 191 123 2 217 218 213 41 215 8 12 211 210 207 14 214 209 7 11 15 216 9 10 184 212 203 56 4 5 13 "
+#!   CONTENTS="209 3 217 12 210 4 7 191 56 6 203 2 13 14 5 15 10 123 218 41 8 207 216 9 215 212 184 214 211 213 11 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2419,7 +2352,7 @@
 #!   BOUNDING_RECT="17.196536932705584 715.27069132490669 8121.5643176854019 1684.2130616020104"
 #!   STICKY="true"
 #!   COLOUR="0.59215686274509804,0.75294117647058822,0.90980392156862744,1"
-#!   CONTENTS="154 118 151 204 71 135 74 35 133 33 107 75 51 171 22 78 138 116 90 235 55 92 156 199 136 137 53 153 155 52 34 208 190 152 236 200 160 111 117 57 59 50 179 188 205 95 140 158 157 242 70 193 198 58 77 132 94 73 141 134 149 54 23 237 233 72 80 27 150 81 79 49 232 139 231 76 82 "
+#!   CONTENTS="51 179 152 190 74 57 232 208 73 59 90 117 157 136 139 49 79 156 153 133 205 82 80 138 76 160 58 150 75 54 94 92 22 53 27 116 34 52 236 231 204 95 55 135 23 50 137 198 107 78 149 35 70 242 233 199 111 140 158 141 235 77 200 33 151 72 118 193 132 134 237 81 154 171 188 71 155 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2433,7 +2366,7 @@
 #!   BOUNDING_RECT="31.685027104492377 -989.65109374816893 2684.7245374627655 500"
 #!   STICKY="true"
 #!   COLOUR="0.95686274509803926,0.9137254901960784,0.63529411764705879,1"
-#!   CONTENTS="234 60 63 194 143 142 64 144 62 61 "
+#!   CONTENTS="64 142 194 234 62 63 61 60 144 143 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2447,7 +2380,7 @@
 #!   BOUNDING_RECT="-3377.6022691733765 240.93934328366032 1408.3194914480878 727.79587890115909"
 #!   STICKY="true"
 #!   COLOUR="0.63529411764705879,0.80000000000000004,0.59999999999999998,1"
-#!   CONTENTS="69 67 68 146 66 196 147 "
+#!   CONTENTS="69 66 147 67 146 68 196 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2461,7 +2394,7 @@
 #!   BOUNDING_RECT="8224.4953955232977 1452.0630343803668 2121.976563280472 980.02164163369594"
 #!   STICKY="true"
 #!   COLOUR="0.96078431372549022,0.29019607843137257,0.29019607843137257,1"
-#!   CONTENTS="83 100 91 89 166 99 175 165 87 161 96 176 97 174 88 98 93 170 173 168 "
+#!   CONTENTS="166 88 173 97 165 176 100 87 89 93 170 174 175 83 168 99 96 91 98 161 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -7944,7 +7877,7 @@ GUI IGNORE SourceDataset_SHAPEFILE_1,SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_1,
 # ============================================================================
 DEFAULT_MACRO SourceDataset_SHAPEFILE $(FME_MF_DIR)powiaty.shp
 
-DEFAULT_MACRO powiat dębicki
+DEFAULT_MACRO Powiat dębicki
 
 DEFAULT_MACRO Datapoczatkowa 2022-10-10
 
@@ -7954,7 +7887,7 @@ DEFAULT_MACRO Emailklienta mdrewniak@student.agh.edu.pl
 
 DEFAULT_MACRO Email drewniakmaciej55@gmail.com
 
-DEFAULT_MACRO Hasło fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszfWdMDZcPrF7ev0xP1XYglHUdHYQiH/maoxktQDa3SgOP/91hrZl2UGNMH/oIIuOeNdGYtIU8DtucGJ4kpqYNBw//3rYGS06lRaVGVMfb4UD+0CuyFRzeo3lfWOSNRRSqKXBDIoqQ/8DESi1B9KnsZ8Y6gQf+vVpT063i2FtbYfKmi3IYyT3jMVxm5EA5Dd2WNCRD4RUp5wz/zRoiXtUW85oih+ljdVpbTTSFxurszIVUv5cI3Gvg4IEpKVNyE2EpHhNm+7OmN40p9eQPLtzxfhNVPFbcd5W4uj7sC1a4rgKxsn/3EKYX2LbfSHvEufQ0G+o5uQxzqyk9OMxHsH+X8RLBwI4naxU3)
+DEFAULT_MACRO Haslo fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszNftS6YyMNhOUdk1KB+RNVKbV2LD0SO/4rFXL52ODQAod+jk8HVJBtYdmZYmRzNsVy7gvULOW1y7nc3APtvvvhRrhkVEm0tzYZVPWBavg4l6W/vPVfQo16dcwM16u9wc6IT7H5AdsXI53/iM6dNfmsgEx6Fa71JDktj3JSmMekxDiA/cC6yuSQL9BHoRc9ouj3xZi1feplFJfeJh8M2l49IsUoB/FGECWcVPgEdVU6l9NURYx05JohsHCE5ulKcTzvAwD4F21aYjMuMEnBIHHflF06XCsiag9ZK7WgNr6WdtFl2jMpHEMgfIJT1MPXtfdIKtmG479tJlC1jtKfDXoNLZiS1PjJVyE)
 
 DEFAULT_MACRO makspokrycie 20
 
@@ -7962,12 +7895,12 @@ DEFAULT_MACRO DestDataset_GEOTIFF C:\Users\HP\Desktop\cw9
 
 # ============================================================================
 INCLUDE [ if {{$(SourceDataset_SHAPEFILE$encode)} == {}} { puts_real {Parameter 'SourceDataset_SHAPEFILE' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(powiat$encode)} == {}} { puts_real {Parameter 'powiat' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(Powiat$encode)} == {}} { puts_real {Parameter 'Powiat' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(Datapoczatkowa$encode)} == {}} { puts_real {Parameter 'Datapoczatkowa' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(Datakoncowa$encode)} == {}} { puts_real {Parameter 'Datakoncowa' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(Emailklienta$encode)} == {}} { puts_real {Parameter 'Emailklienta' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(Email$encode)} == {}} { puts_real {Parameter 'Email' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(Hasło$encode)} == {}} { puts_real {Parameter 'Hasło' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(Haslo$encode)} == {}} { puts_real {Parameter 'Haslo' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(makspokrycie$encode)} == {}} { puts_real {Parameter 'makspokrycie' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(DestDataset_GEOTIFF$encode)} == {}} { puts_real {Parameter 'DestDataset_GEOTIFF' must be given a value.}; exit 1; }; ]
 #! START_HEADER
@@ -8115,21 +8048,21 @@ DEFAULT_MACRO DestDataset_GEOTIFF_1 $(DestDataset_GEOTIFF)
 GUI DIRNAME DestDataset_GEOTIFF_1 Destination GeoTIFF Folder:
 DEFAULT_MACRO _GEOTIFF_WRITER_WORLD_FILE_GENERATION_GEOTIFF_1 no
 DEFAULT_MACRO _GEOTIFF_WRITER_CREATE_TILED_FILES_GEOTIFF_1 no
-DEFAULT_MACRO _GEOTIFF_WRITER_TILE_SIZE_X_GEOTIFF_1
-DEFAULT_MACRO _GEOTIFF_WRITER_TILE_SIZE_Y_GEOTIFF_1
+DEFAULT_MACRO _GEOTIFF_WRITER_TILE_SIZE_X_GEOTIFF_1 
+DEFAULT_MACRO _GEOTIFF_WRITER_TILE_SIZE_Y_GEOTIFF_1 
 DEFAULT_MACRO _GEOTIFF_WRITER_COMPRESSION_METHOD_GEOTIFF_1 none
 DEFAULT_MACRO _GEOTIFF_WRITER_JPEG_COMPRESSION_LEVEL_GEOTIFF_1 25
 DEFAULT_MACRO _GEOTIFF_WRITER_DEFLATE_COMPRESSION_LEVEL_GEOTIFF_1 6
 DEFAULT_MACRO _GEOTIFF_WRITER_ZSTD_COMPRESSION_LEVEL_GEOTIFF_1 9
 DEFAULT_MACRO _GEOTIFF_WRITER_TAB_FILE_GENERATION_GEOTIFF_1 no
-DEFAULT_MACRO _GEOTIFF_WRITER_NUMBER_OF_BITS_PER_CELL_GEOTIFF_1
+DEFAULT_MACRO _GEOTIFF_WRITER_NUMBER_OF_BITS_PER_CELL_GEOTIFF_1 
 DEFAULT_MACRO _GEOTIFF_WRITER_ENABLE_BIGTIFF_GEOTIFF_1 no
 DEFAULT_MACRO _GEOTIFF_WRITER_INTERLEAVING_TYPE_GEOTIFF_1 BSQ
 DEFAULT_MACRO _GEOTIFF_WRITER_PHOTOMETRIC_INTERPRETATION_GEOTIFF_1 Auto
 DEFAULT_MACRO _GEOTIFF_WRITER_BYTE_ORDER_GEOTIFF_1 machine
 DEFAULT_MACRO _GEOTIFF_WRITER_CALCULATE_MINMAX_TIFFTAGS_GEOTIFF_1 no
 DEFAULT_MACRO _GEOTIFF_WRITER_GENERATE_PYRAMIDS_GEOTIFF_1 no
-DEFAULT_MACRO _GEOTIFF_WRITER_PYRAMID_NUM_LEVELS_GEOTIFF_1
+DEFAULT_MACRO _GEOTIFF_WRITER_PYRAMID_NUM_LEVELS_GEOTIFF_1 
 DEFAULT_MACRO _GEOTIFF_WRITER_PYRAMID_INTERPOLATION_TYPE_GEOTIFF_1 NearestNeighbor
 DEFAULT_MACRO _GEOTIFF_WRITER_PYRAMID_TILE_SIZE_GEOTIFF_1 128
 DEFAULT_MACRO GEOTIFF_OUT_GEOTIFF_WRT_ADV_PARM_GROUP_GEOTIFF_1 
@@ -8180,7 +8113,7 @@ FME_BULK_MODE_THRESHOLD 2000
 LAST_SAVE_BUILD "FME 2022.2.0.0 (20221103 - Build 22765 - WIN64)"
 DEFAULT_MACRO DATASET_KEYWORD_SHAPEFILE_1 SHAPEFILE_1
 DEFAULT_MACRO DATASET_KEYWORD_GEOTIFF_1 GEOTIFF_1
-FME_PASSWORD_PARAMETER_LIST Hasło
+FME_PASSWORD_PARAMETER_LIST Haslo
 # -------------------------------------------------------------------------
 
 SHAPEFILE_1_READER_META_ATTRIBUTES fme_feature_type
@@ -8188,7 +8121,8 @@ SHAPEFILE_1_READER_META_ATTRIBUTES fme_feature_type
 # -------------------------------------------------------------------------
 
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
-FME_BEGIN_PYTHON_ENC #<space>Import<space>FME<space>Objects<space>module<lf>import<space>fmeobjects<lf>from<space>datetime<space>import<space>datetime<lf>#<space>Create<space>FME<space>Log<space>File<space>object<space>name<space>called<space>logger<lf>logger<space>=<space>fmeobjects.FMELogFile<openparen><closeparen><lf>now=datetime.now<openparen><closeparen><lf>#<space>Call<space>logMessageString<space>method<space>to<space>add<space>custom<space>text<space>and<space>set<space>WARN<space>severity<space>level<lf>string=<quote>Drogi<space>uzytkowniku<space>$(Email)<comma><space>o<space>godzinie<space><opencurly><closecurly><space>rozpoczeto<space>przetwarzanie<space>danych<space>dla<space>powiatu<space>$(powiat)ego<quote>.format<openparen>now<closeparen><lf>logger.logMessageString<openparen>string<comma>1<closeparen><lf>
+FME_BEGIN_PYTHON_ENC import<space>smtplib<comma><space>fme<comma><space>ssl<lf>import<space>unicodedata<lf>to<space>=<space><space>fme.macroValues<openbracket><apos>Emailklienta<apos><closebracket><lf>gmail_user<space>=<space><space>fme.macroValues<openbracket><apos>Email<apos><closebracket><lf>gmail_pwd<space>=<space><space>fme.macroValues<openbracket><apos>Haslo<apos><closebracket><lf>powiat2<space>=<space>fme.macroValues<openbracket><apos>Powiat<apos><closebracket><lf>def<space>polskie<openparen>s<closeparen>:<lf><space><space><space>return<space><apos><apos>.join<openparen>c<space>for<space>c<space>in<space>unicodedata.normalize<openparen><apos>NFD<apos><comma><space>s<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>if<space>unicodedata.category<openparen>c<closeparen><space>!=<space><apos>Mn<apos><closeparen><lf>powiat2=polskie<openparen>powiat2<closeparen><lf><lf>#<space>Sending<space>the<space>email<lf><lf>#<space>Using<space>the<space>gmail<space>smtp<space>server<lf>#You<space>can<space>edit<space>this<space>line<space>to<space>use<space>your<space>own<space>email<space>server<lf>smtpserver<space>=<space>smtplib.SMTP_SSL<openparen><quote>smtp.gmail.com<quote><comma>465<closeparen><lf><lf>smtpserver.login<openparen>gmail_user<comma><space>gmail_pwd<closeparen><lf>msg<space>=<space>f<quote>Drogi<space>uzytkowniku<space><opencurly>to<closecurly><comma><space>rozpoczeto<space>przetwarzanie<space>danych<space>NDVI<space>dla<space>powiatu<space><opencurly>powiat2<closecurly>ego<space><quote><lf>smtpserver.sendmail<openparen>gmail_user<comma><space>to<comma><space>msg<closeparen><lf>print<openparen><apos>done!<apos><closeparen><lf>smtpserver.close<openparen><closeparen>
+FME_END_PYTHON_ENC import<space>smtplib<comma><space>fme<comma><space>ssl<lf>from<space>datetime<space>import<space>datetime<lf>import<space>unicodedata<lf>to<space>=<space><space>fme.macroValues<openbracket><apos>Emailklienta<apos><closebracket><lf>gmail_user<space>=<space><space>fme.macroValues<openbracket><apos>Email<apos><closebracket><lf>gmail_pwd<space>=<space><space>fme.macroValues<openbracket><apos>Haslo<apos><closebracket><lf>powiat2<space>=<space>fme.macroValues<openbracket><apos>Powiat<apos><closebracket><lf>def<space>polskie<openparen>s<closeparen>:<lf><space><space><space>return<space><apos><apos>.join<openparen>c<space>for<space>c<space>in<space>unicodedata.normalize<openparen><apos>NFD<apos><comma><space>s<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>if<space>unicodedata.category<openparen>c<closeparen><space>!=<space><apos>Mn<apos><closeparen><lf>powiat2=polskie<openparen>powiat2<closeparen><lf>data<space>=<space>datetime.now<openparen><closeparen><lf><lf>#<space>Sending<space>the<space>email<lf><lf>#<space>Using<space>the<space>gmail<space>smtp<space>server<lf>#You<space>can<space>edit<space>this<space>line<space>to<space>use<space>your<space>own<space>email<space>server<lf>smtpserver<space>=<space>smtplib.SMTP_SSL<openparen><quote>smtp.gmail.com<quote><comma>465<closeparen><lf><lf>smtpserver.login<openparen>gmail_user<comma><space>gmail_pwd<closeparen><lf>msg<space>=<space>f<quote>Proces<space>zostal<space>pomyslnie<space>wykonany<backslash>n<quote><lf>smtpserver.sendmail<openparen>gmail_user<comma><space>to<comma><space>msg<closeparen><lf>print<openparen><apos>done!<apos><closeparen><lf>smtpserver.close<openparen><closeparen>
 
 # -------------------------------------------------------------------------
 
@@ -8213,7 +8147,7 @@ DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Reprojector }    INPUT  FEATURE_TYPE powiaty_SHAPEFILE_1    OUTPUT { FEATURE_TYPE Reprojector_REPROJECTED         @Reproject("","LL84",NearestNeighbor,PreserveCells,Reprojector,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)          }
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} TestFactory    FACTORY_NAME { Tester }    INPUT  FEATURE_TYPE Reprojector_REPROJECTED    CASE_INSENSITIVE_TEST { "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>JPT_NAZWA_<closeparen>,Tester)" LIKE "@EvaluateExpression(FDIV,STRING_ENCODED,powiat<space>$(powiat$encode),Tester)" ENCODED }    BOOLEAN_OPERATOR { OR }    COMPOSITE_TEST_EXPR { "<Unused>" }    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    OUTPUT { PASSED FEATURE_TYPE Tester_PASSED         }
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { Tester }    INPUT  FEATURE_TYPE Reprojector_REPROJECTED    CASE_INSENSITIVE_TEST { "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>JPT_NAZWA_<closeparen>,Tester)" LIKE "@EvaluateExpression(FDIV,STRING_ENCODED,powiat<space>$(Powiat$encode),Tester)" ENCODED }    BOOLEAN_OPERATOR { OR }    COMPOSITE_TEST_EXPR { "<Unused>" }    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    OUTPUT { PASSED FEATURE_TYPE Tester_PASSED         }
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester PASSED Splitter"   INPUT FEATURE_TYPE Tester_PASSED   OUTPUT FEATURE_TYPE Tester_PASSED_0_M1wqjkih4e0=   OUTPUT FEATURE_TYPE Tester_PASSED_1_8t6d0F2OYOU=
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SentinelDownloader Initiator Input Collector"   INPUT FEATURE_TYPE Tester_PASSED_0_M1wqjkih4e0=   OUTPUT FEATURE_TYPE SentinelDownloader_Initiator
@@ -8224,7 +8158,7 @@ MACRO $(SentinelDownloader_WORKSPACE_NAME)_FME_USER_PARAM_PRIVATE_GRP
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_platform Sentinel-2
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_PARAMETER 
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_key_name mdrewniak
-MACRO $(SentinelDownloader_WORKSPACE_NAME)_key_pw $(Hasło)
+MACRO $(SentinelDownloader_WORKSPACE_NAME)_key_pw fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszfXvkNQX/+i6DQZGpQPe/U4rAnMJd5LscoSPSq+cCUeNOaWsluHgOQUCWeTaAVA5iTLdnS+CsCeVxhEu/oMdyd7iaLulyEPLE6vLWLyAdvrqyAC982GHJMAfRnpaTieq8fiYsWe+54AsVDmvOj++fE767zK30mSl4O/JGnJH6IhX0gkx3Hs2Lw5YVeo1woBrWk0TXLTlAFZ9rel4Bijws0Jc4JM0CR0Ho3hL76CGL3Gy09RP40wQcqd17nXe1u2PCbj1bC9UZywojyVDnAsiaLZeiSy3kTMY01KWoeaGNYNp8lCQTZkAmQuugYVUTwpv+ZvbXEWHhgEq4NtCM07bA0/WbRAaGUKzJ)
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_PARAMETER_2 
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_BEGIN $(Datapoczatkowa)
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_END $(Datakoncowa)
@@ -8236,7 +8170,7 @@ MACRO $(SentinelDownloader_WORKSPACE_NAME)_SUB_DOC_NAME SentinelDownloader
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_SUB_DOC_NAME SentinelDownloader
 DEFAULT_MACRO SentinelDownloader_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(SentinelDownloader_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(SentinelDownloader_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_Initiator1672609669 Input Splitter"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Initiator"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Initiator"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_Initiator1673210760 Input Splitter"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Initiator"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Initiator"
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} TextEncoderFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_TextEncoder }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Initiator"    ACTION { BASE64_ENCODE }    RESULT_ATTR { "_key_encoded" }    VALUE_TO_ENCODE { "@EvaluateExpression(FDIV,STRING_ENCODED,$($(SentinelDownloader_WORKSPACE_NAME)_key_name$encode):$($(SentinelDownloader_WORKSPACE_NAME)_key_pw$encode),$(SentinelDownloader_WORKSPACE_NAME)_TextEncoder)" }    OUTPUT { OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TextEncoder_OUTPUT"        }
 # -------------------------------------------------------------------------
@@ -8249,7 +8183,7 @@ MACRO OUTPUT_TEXT_FTYPE $(SentinelDownloader_WORKSPACE_NAME)_GeometryFilter_TEXT
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup $(SentinelDownloader_WORKSPACE_NAME)_GeometryFilter_RouterTable   ""  "not_selected"   fme_point $(OUTPUT_POINT_FTYPE)   fme_area $(OUTPUT_AREA_FTYPE)   fme_text $(OUTPUT_TEXT_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_GeometryFilter_0ec19ab5_2df1_4cd0_8133_c10ce7b769a818} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_GeometryFilter_d4096589_acd5_4178_999b_2bb256d71e100} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -8328,7 +8262,7 @@ FACTORY_DEF {*} TestFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAM
 FACTORY_DEF {*} SortFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_Sorter }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Tester_2_PASSED"    SORT_ALPHA_AS_UTF8 { YES }    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    SORT_BY { date{3} NUMERIC ASCENDING }    OUTPUT { SORTED FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Sorter_SORTED"          }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_DateTimeConverter_63f719e3_08a8_408a_9f74_3c6c3ae8386818} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_DateTimeConverter_94d13e53_3f28_4249_a8d0_2bab6c6b3a360} ]
 DEFAULT_MACRO $(SentinelDownloader_WORKSPACE_NAME)_DateTimeConverter_EXPRESSION_LIST
 INCLUDE [    set repairInput {};    if {{YES} eq {YES}} {       set repairInput "<comma>repair";    };    set inFormat {FME|ISO};    if { {} ne {} } {       set inFormat {};       if { [string first "<quote>" $inFormat] != -1 } {          set inFormat [string map {"<quote>" "<backslash><quote>"} $inFormat];       };    };    set outFormat {%Y%m%d};    if { [string first "<quote>" $outFormat] != -1 } {       set outFormat [string map {"<quote>" "<backslash><quote>"} $outFormat];    };    set parmList {};    set attrs {date<opencurly>3<closecurly>};    foreach attr $attrs {       lappend parmList $attr;       set funcAttr $attr;       if { [string first "<quote>" $attr] != -1 }       {          set funcAttr [string map {"<quote>" "<backslash><quote>"} $attr];          append funcAttr "<quote>";          set funcAttr "<quote>$funcAttr";       };       lappend parmList <at>DateTimeFormat<openparen><at>DateTimeParse<openparen><at>Value<openparen>$funcAttr<closeparen><comma><quote>$inFormat<quote>$repairInput<closeparen><comma><quote>$outFormat<quote><closeparen>;    };    puts "MACRO $(SentinelDownloader_WORKSPACE_NAME)_DateTimeConverter_EXPRESSION_LIST [join $parmList { }]"; ]
 Tcl2 proc $(FME_UUID_SAFE)_DateTimeConverter {} {    set attrs {date<opencurly>3<closecurly>};    set decodedAttrs {};    set attrVals {};    set attrNulls {};    set attrMissings {};    foreach attr $attrs {       set decodedAttr [FME_DecodeText $attr];       lappend decodedAttrs $decodedAttr;       lappend attrVals [FME_GetAttribute $decodedAttr];       lappend attrNulls [FME_IsAttributeNull $decodedAttr];       lappend attrExists [FME_AttributeExists $decodedAttr];    };    FME_Execute EvaluateExpression ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV $($(SentinelDownloader_WORKSPACE_NAME)_DateTimeConverter_EXPRESSION_LIST) $(SentinelDownloader_WORKSPACE_NAME)_DateTimeConverter;    foreach attr $decodedAttrs oldAttrVal $attrVals oldAttrExists $attrExists oldAttrNull $attrNulls {       set newAttrVal [FME_GetAttribute $attr];       if {[string length $newAttrVal] == 0} {          if {{NO} eq {NO} || [string length $oldAttrVal] > 0} {             FME_SetAttribute fme_rejection_code "INVALID_INPUT";             break;          } elseif {!$oldAttrExists} {             FME_UnsetAttributes $attr;          } elseif {!$oldAttrNull} {             FME_SetAttribute $attr {};          };       }    }; }
@@ -8351,7 +8285,7 @@ FACTORY_DEF {*} HTTPFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAM
 FACTORY_DEF {*} TestFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_Tester_7 }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_HTTPCaller_6_Output"    TEST { "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response_body<closeparen>,$(SentinelDownloader_WORKSPACE_NAME)_Tester_7)" = true ENCODED }    BOOLEAN_OPERATOR { OR }    COMPOSITE_TEST_EXPR { "<Unused>" }    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    OUTPUT { PASSED FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Tester_7_PASSED"         }    OUTPUT { FAILED FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Tester_7_FAILED"         }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_5_912cfaff_267a_4f08_88e1_8681ce357e7018} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_5_310b0e9c_4bbe_466a_b30b_96cd6bb642770} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -8490,7 +8424,7 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF {*} TestFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_Terminator_5 }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_AttributeManager_2_OUTPUT"    TEST { "$(_WB_BYPASS_TERMINATION)" == Yes }    OUTPUT { PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"@EvaluateExpression(FDIV,STRING_ENCODED,Error<space>at<space>parsing<space>the<space>response<space>JSON.<lf>Error:<space><at>Value<openparen>_json_error<opencurly>0<closecurly>.message<closeparen><lf>FME<space>rejection<space>code:<space><at>Value<openparen>fme_rejection_code<closeparen>,$(SentinelDownloader_WORKSPACE_NAME)_Terminator_5)")       @SupplyAttributes(_wb_termination_xformer,"$(SentinelDownloader_WORKSPACE_NAME)_Terminator_5")       @SupplyAttributes(_wb_termination_feature,Yes) }    OUTPUT { FAILED FEATURE_TYPE * @Abort(ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,Error<space>at<space>parsing<space>the<space>response<space>JSON.<lf>Error:<space><at>Value<openparen>_json_error<opencurly>0<closecurly>.message<closeparen><lf>FME<space>rejection<space>code:<space><at>Value<openparen>fme_rejection_code<closeparen>,$(SentinelDownloader_WORKSPACE_NAME)_Terminator_5)") }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_4_b03cdf55_2c0c_43e8_95a2_d13a037e443118} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_4_3d267c4c_a26b_4a42_8576_10d64479136f0} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -8512,7 +8446,7 @@ FACTORY_DEF {*} TeeFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME
 FACTORY_DEF {*} ListFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_ListBuilder }    INPUT { FEATURE_TYPE $(SentinelDownloader_WORKSPACE_NAME)_ListBuilder_no_fme_type }    LIST_NAME { "_datelist{}" }    LIST_ATTRS_TO_INCLUDE { date }    LIST_ATTRS_TO_INCLUDE_MODE { SELECTED }    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    OUTPUT { LIST FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_ListBuilder_OUTPUT"          }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_ListConcatenator_6ba383ce_5d24_4547_99e5_d04852358ff518} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_ListConcatenator_e2451a45_a991_4c26_a1ed_511fb5c5b4a70} ]
 Tcl2 set $(FME_UUID_SAFE)__separator [FME_DecodeText {<space><amp><space>}];      regsub -all \"{}\" [FME_DecodeText {_datelist<opencurly><closecurly>.date}] [FME_DecodeText {<opencurly><backslash>d+<closecurly>}] $(FME_UUID_SAFE)__listPattern;      set $(FME_UUID_SAFE)__listPattern ^$$(FME_UUID_SAFE)__listPattern$;
 Tcl2 proc $(FME_UUID_SAFE)__Concatenate {} {   upvar \#0 $(FME_UUID_SAFE)__separator separator             $(FME_UUID_SAFE)__listPattern listPattern;   set allAttrs [lsort -dictionary [FME_AttributeNames]];   set keepEmptyParts [string equal {No} {No}];   set result {};   foreach attrName $allAttrs {     if {[regexp $listPattern $attrName]} {       set attrValue [FME_GetAttribute $attrName];       if {$keepEmptyParts || $attrValue != {}} {         lappend result $attrValue;       };     };   };   FME_SetAttribute {"_concatenated"} [join $result $separator]; }
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_ListConcatenator }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_ListBuilder_OUTPUT"    OUTPUT { FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_ListConcatenator_OUTPUT"         @Tcl2($(FME_UUID_SAFE)__Concatenate)          }
@@ -8523,7 +8457,7 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_FeatureMerger_<Rejected>" INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_FeatureMerger_<REJECTED>"  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SentinelDownloader_FeatureMerger<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_bc9b0fb2_4ebe_40bd_85bc_36e02e40d0c618} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_f39a09a6_d2c7_40ac_88e0_681ee1ecc4250} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -8543,7 +8477,7 @@ FACTORY_DEF * TeeFactory FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_HTTP
 FACTORY_DEF {*} TestFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_Tester }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_HTTPCaller_2_Output"    TEST { "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_http_status_code<closeparen>,$(SentinelDownloader_WORKSPACE_NAME)_Tester)" = 202 ENCODED }    BOOLEAN_OPERATOR { OR }    COMPOSITE_TEST_EXPR { "<Unused>" }    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    OUTPUT { PASSED FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Tester_PASSED"         }    OUTPUT { FAILED FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Tester_FAILED"         }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_2_33bd14ed_f851_4756_b53f_d72ff6766acc18} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_2_4b1c612c_ffad_4dab_a551_fb15fdcff81d0} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -8556,7 +8490,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_Lo
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_AttributeCreator_4 }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Tester_FAILED"    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ATTR_ACTION { "" "error_msg" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;1;TEST <at>Value<openparen>_http_status_code<closeparen> = 503'Service<space>unavailable.<space>LTA<space>cannot<space>accept<space>new<space>requests<space>right<space>now.<space>Try<space>again<space>soon.'BOOL_OP;OR;COMPOSITE_TEST;1;TEST <at>Value<openparen>_http_status_code<closeparen> = 403'Request<space>forbidden.<space>Number<space>of<space>submissions<space>exceeds<space>allowed<space>user<space>quota.'BOOL_OP;OR;COMPOSITE_TEST;1;TEST <at>Value<openparen>_http_status_code<closeparen> = 500'Internal<space>server<space>error.'FME_NUM_CONDITIONS4___" }    OUTPUT { OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_AttributeCreator_4_OUTPUT"        }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_3_7279b73f_6982_4f6e_ab74_4e925ebda53918} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_3_d23f40cf_8615_4ca5_ae6c_f91ad86238810} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -8589,20 +8523,20 @@ FACTORY_DEF {*} TestFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAM
 # somesuch.
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF {*} TestFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_Terminator }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_GeometryFilter_<UNFILTERED>"    TEST { "$(_WB_BYPASS_TERMINATION)" == Yes }    OUTPUT { PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Translation<space>Terminated<space>because<space>none<space>of<space>the<space>input<space>parameters<space>was<space>either<space>a<space>point<comma><space>polygon<comma><space>or<space>text<space><openparen>WKT<closeparen><space>feature.")       @SupplyAttributes(_wb_termination_xformer,"$(SentinelDownloader_WORKSPACE_NAME)_Terminator")       @SupplyAttributes(_wb_termination_feature,Yes) }    OUTPUT { FAILED FEATURE_TYPE * @Abort(ENCODED,"Translation<space>Terminated<space>because<space>none<space>of<space>the<space>input<space>parameters<space>was<space>either<space>a<space>point<comma><space>polygon<comma><space>or<space>text<space><openparen>WKT<closeparen><space>feature.") }
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B011672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B01"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B01"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B021672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B02"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B02"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B031672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B03"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B03"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B041672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B04"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B04"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B051672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B05"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B05"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B061672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B06"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B06"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B071672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B07"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B07"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B081672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B08"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B08"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B8A1672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B8A"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B8A"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B091672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B09"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B09"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B101672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B10"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B10"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B111672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B11"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B11"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B121672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B12"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B12"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_TCI1672609669 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_TCI"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TCI"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B011673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B01"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B01"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B021673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B02"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B02"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B031673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B03"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B03"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B041673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B04"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B04"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B051673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B05"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B05"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B061673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B06"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B06"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B071673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B07"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B07"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B081673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B08"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B08"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B8A1673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B8A"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B8A"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B091673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B09"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B09"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B101673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B10"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B10"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B111673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B11"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B11"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B121673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B12"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B12"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_TCI1673210760 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_TCI"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TCI"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(SentinelDownloader_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SentinelDownloader B01 Output Renamer/Nuker"   INPUT FEATURE_TYPE SentinelDownloader_B01
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SentinelDownloader B02 Output Renamer/Nuker"   INPUT FEATURE_TYPE SentinelDownloader_B02
@@ -8658,21 +8592,11 @@ FACTORY_DEF * TeeFactory FACTORY_NAME NDVICalculator_<Rejected> INPUT FEATURE_TY
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Reprojector_2 }    INPUT  FEATURE_TYPE Tester_PASSED_1_8t6d0F2OYOU=    OUTPUT { FEATURE_TYPE Reprojector_2_REPROJECTED         @Reproject("","UTM84-34N",NearestNeighbor,PreserveCells,Reprojector_2,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)          }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} ClipperFactory    FACTORY_NAME { Clipper }    INPUT CLIPPER FEATURE_TYPE Reprojector_2_REPROJECTED    INPUT CANDIDATE FEATURE_TYPE NDVICalculator_Output    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    MULTIPLE_CLIPPERS { YES }    CLIPPERS_FIRST { NO }    OVERLAPPING_CLIPPERS { CLIP_OUTSIDE }    INVALID_PARTS_HANDLING { REJECT_WHOLE }    Z_VAL_SOURCE { CANDIDATE }    MISSING_Z_MODE { PLANAR }    CONNECT_Z_MODE { <Unused> }    M_VAL_SOURCE { CANDIDATE }    MISSING_M_MODE { LINEAR }    CLEANING_TOLERANCE { AUTO }    CANDIDATE_ON_BOUNDARY { INSIDE }    PRESERVE_RASTER_EXTENTS { NO }    RASTER_CELL_MODE { CENTER }    CLIPPED_INDICATOR_ATTR { _clipped }    MERGE_CLIPPER_ATTRIBUTES { NO }    ATTR_ACCUM_MODE { "<Unused>" }    ATTR_CONFLICT_RES { "<Unused>" }    CLIPPER_PREFIX { "<Unused>" }    LIST_NAME { "<Unused>" }    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE { <Unused> }    OUTPUT { INSIDE FEATURE_TYPE Clipper_INSIDE         }    OUTPUT { REJECTED FEATURE_TYPE Clipper_<REJECTED>         }
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Clipper INSIDE Splitter"   INPUT FEATURE_TYPE Clipper_INSIDE   OUTPUT FEATURE_TYPE Clipper_INSIDE_0_PMBiwD96aMs=   OUTPUT FEATURE_TYPE Clipper_INSIDE_1_WdTwwzY43qU=   OUTPUT FEATURE_TYPE Clipper_INSIDE_2_IyMIZl22Qtw=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Clipper INSIDE Splitter"   INPUT FEATURE_TYPE Clipper_INSIDE   OUTPUT FEATURE_TYPE Clipper_INSIDE_0_PMBiwD96aMs=   OUTPUT FEATURE_TYPE Clipper_INSIDE_1_WdTwwzY43qU=
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME Clipper_<Rejected> INPUT FEATURE_TYPE Clipper_<REJECTED>  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, Clipper<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-# Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
-# FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
-# our table elements :-(
-# The python later expects the first character to be a space so all is well.
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Emailer_CATCHER }    INPUT  FEATURE_TYPE Clipper_INSIDE_1_WdTwwzY43qU=    OUTPUT { FEATURE_TYPE Emailer_READY       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       ___fme_emailer_service           "Gmail"       ___fme_emailer_connection        "GMAIL_NAMED_CONNECTION;hp<space>Google<space>Gmail<space><openparen>safe.emailer<closeparen>;TIMEOUT;60"       ___fme_emailer_from              "@EvaluateExpression(FDIV,STRING_ENCODED,$(Email$encode),Emailer)"       ___fme_emailer_to                "@EvaluateExpression(FDIV,STRING_ENCODED,$(Emailklienta$encode),Emailer)"       ___fme_emailer_cc                ""       ___fme_emailer_bcc               ""       ___fme_emailer_subject           "FME<space>cw9"       ___fme_emailer_body              "Proces<space>zosta<u0142><space>pomy<u015b>lnie<space>wykonany"       ___fme_emailer_attachments       " "       ___fme_emailer_xformerName       "Emailer"   }
-FACTORY_DEF {*} PythonFactory    FACTORY_NAME { Emailer_CALLER }    INPUT { FEATURE_TYPE Emailer_READY }    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME fmepy_emailer.Emailer    OUTPUT { PYOUTPUT FEATURE_TYPE Emailer_PROCESSED }
-FACTORY_DEF {*} TestFactory    FACTORY_NAME { Emailer_ROUTER }    INPUT { FEATURE_TYPE Emailer_PROCESSED }    TEST &fme_rejection_code == ""    OUTPUT { FAILED FEATURE_TYPE Emailer_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)        }
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME Emailer_<Rejected> INPUT FEATURE_TYPE Emailer_<REJECTED>  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, Emailer<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
-# -------------------------------------------------------------------------
-FACTORY_DEF {*} RasterStatisticsFactory    FACTORY_NAME { RasterStatisticsCalculator }    INPUT  FEATURE_TYPE Clipper_INSIDE_2_IyMIZl22Qtw=    RASTER_LEVEL { BAND_ONLY }    RASTER_STATS { 0   MEAN   STDEV   }    OUTPUT { OUTPUT FEATURE_TYPE RasterStatisticsCalculator_OUTPUT          }    OUTPUT { <REJECTED> FEATURE_TYPE RasterStatisticsCalculator_<REJECTED>          }
+FACTORY_DEF {*} RasterStatisticsFactory    FACTORY_NAME { RasterStatisticsCalculator }    INPUT  FEATURE_TYPE Clipper_INSIDE_1_WdTwwzY43qU=    RASTER_LEVEL { BAND_ONLY }    RASTER_STATS { 0   MEAN   STDEV   }    OUTPUT { OUTPUT FEATURE_TYPE RasterStatisticsCalculator_OUTPUT          }    OUTPUT { <REJECTED> FEATURE_TYPE RasterStatisticsCalculator_<REJECTED>          }
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME RasterStatisticsCalculator_<Rejected> INPUT FEATURE_TYPE RasterStatisticsCalculator_<REJECTED>  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterStatisticsCalculator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -8687,7 +8611,7 @@ DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # [PR#45549] The Data Inspector will limit the maximum number of features
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF {*} RecorderFactory    FACTORY_NAME { Inspector_Recorder }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE { "$(VISUALIZER_FEATURE_FILE)" }    STORE_SCANNED_SCHEMA YES    NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA YES    CREATE_SPATIAL_INDEX { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    INSPECTOR { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    FSC_SCHEMA { fme_basename,varchar<openparen>50<closeparen>,_clipped,char<openparen>3<closeparen>,band0.mean,real64,band0.stdev,real64 }    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF {*} RecorderFactory    FACTORY_NAME { Inspector_Recorder }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE { "$(VISUALIZER_FEATURE_FILE)" }    STORE_SCANNED_SCHEMA YES    NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA YES    CREATE_SPATIAL_INDEX { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    INSPECTOR { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    FSC_SCHEMA { fme_basename,varchar<openparen>200<closeparen>,_clipped,char<openparen>3<closeparen>,band0.mean,real64,band0.stdev,real64 }    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Clipper_INSIDE_0_PMBiwD96aMs= TO GEOTIFF __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Raster1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_basename<lt>closeparen<gt><comma>Raster1<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
